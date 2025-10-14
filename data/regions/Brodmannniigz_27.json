@@ -1,0 +1,15 @@
+{
+  "id": "Brodmannniigz_27",
+  "name": "Intraparietal Sulcus Area 4",
+  "ba_label": "IPS4",
+  "description": "Intraparietal sulcus area 4 - visual attention control",
+  "location": "Intraparietal sulcus (Right hemisphere)",
+  "function": "Involved in visual attention control and eye-hand coordination",
+  "connections": [
+    "Thalamus",
+    "Adjacent cortical areas"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 1106,
+  "hemisphere": "Right"
+}

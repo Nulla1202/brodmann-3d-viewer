@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_33",
+  "name": "Orbitofrontal Cortex (Area 47s)",
+  "ba_label": "47s",
+  "description": "Orbitofrontal cortex - social decision making and emotion control",
+  "location": "Orbitofrontal region (Right hemisphere)",
+  "function": "Involved in social decision-making and emotional control",
+  "connections": [
+    "Orbitofrontal cortex",
+    "Amygdala",
+    "Ventral striatum",
+    "Anterior cingulate"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 17878,
+  "hemisphere": "Right"
+}

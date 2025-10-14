@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_47",
+  "name": "Anterior-mid Insula",
+  "ba_label": "Iam",
+  "description": "Insula (anterior-mid) - interoception and social emotions",
+  "location": "Insular cortex (Left hemisphere)",
+  "function": "Recognition of interoceptive sensations (heartbeat, etc.) and social emotions like empathy",
+  "connections": [
+    "Insula",
+    "Anterior cingulate",
+    "Amygdala",
+    "Orbitofrontal cortex"
+  ],
+  "clinical_significance": "Lesions affect empathy and social emotions",
+  "vertices": 14158,
+  "hemisphere": "Left"
+}

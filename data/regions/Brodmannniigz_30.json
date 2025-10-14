@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_30",
+  "name": "Visual Area V3 (dorsal)",
+  "ba_label": "V3d",
+  "description": "Visual area V3 (dorsal) - object shape and motion",
+  "location": "Occipital lobe (Right hemisphere)",
+  "function": "Higher-order visual region involved in processing object shape and motion",
+  "connections": [
+    "BA17 (V1)",
+    "BA18 (V2)",
+    "BA19",
+    "Visual thalamus",
+    "Superior colliculus"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 21784,
+  "hemisphere": "Right"
+}

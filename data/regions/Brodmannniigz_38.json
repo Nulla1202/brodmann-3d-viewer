@@ -1,0 +1,45 @@
+{
+  "id": "Brodmannniigz_38",
+  "name": "Brodmann Area 25 (Subgenual Cingulate)",
+  "ba_label": "BA25",
+  "description": "Brodmann Area 25 (Subgenual Cingulate) - BA25 is extremely rich in serotonin transporters and acts as a governor for a vast network influencing appetite, sleep, mood, anxiety, memory formation, and self-esteem. It is particularly implicated ",
+  "location": "Brodmann Area 25 (BA25), also known as the subgenual area, area subgenualis, or subgenual cingulate area, is located in the cerebral cortex. It is delineated by cytoarchitectonic characteristics and situated in the cingulate region as a narrow band in the caudal portion of the subcallosal area, adjacent to the paraterminal gyrus. It is separated from the paraterminal gyrus by the posterior parolfactory sulcus and rostrally bounded by Brodmann Area 11.",
+  "function": "BA25 is extremely rich in serotonin transporters and acts as a governor for a vast network influencing appetite, sleep, mood, anxiety, memory formation, and self-esteem. It is particularly implicated in the normal processing of sadness.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Specific characteristics or functional significance directly within BA25 were not found in the reviewed literature. Further targeted research would be needed to elucidate their role in this specific area."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Increased low-theta power (4-7 Hz) in the subgenual anterior cingulate cortex (sgACC), which includes BA25, has been shown to predict response to repetitive transcranial magnetic stimulation (rTMS) in vascular depression. Normalization of higher than normal low-theta power in the subgenual ACC was observed after rTMS in responders. Low-theta power in the subgenual ACC was correlated to total HAM-D scores prior to rTMS."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Specific characteristics or functional significance directly within BA25 were not found in the reviewed literature. Further targeted research would be needed to elucidate their role in this specific area."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Modulation of beta-band activity (14-30 Hz) in the subgenual anterior cingulate cortex (sgACC), which includes BA25, has been observed during emotional empathy in treatment-resistant depression. Deep Brain Stimulation (DBS) in sgACC influences beta activity, and a decrease in oscillatory beta activity (14-30 Hz) was observed in response to emotional stimuli in patients with treatment-resistant depression."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "DBS for treatment-resistant depression has been shown to suppress frontal gamma oscillations (30-48 Hz / 36.5-44 Hz). Gamma oscillations are also observed in the subcallosal cingulate region (including BA25) and are implicated in various brain functions, though specific characteristics for BA25 are not extensively detailed in the context of normal function. Some studies mention gamma oscillations in the context of error processing in the anterior cingulate cortex (BA24, BA25, BA32)."
+    }
+  },
+  "connections": [
+    "Anterior cingulate",
+    "Posterior cingulate",
+    "Hippocampus",
+    "Prefrontal cortex"
+  ],
+  "connectivity_pattern": "BA25 acts as a governor for a vast network influencing appetite and sleep (via hypothalamus and brain stem), mood and anxiety (via amygdala and insula), memory formation (via hippocampus), and self-esteem (via parts of the frontal cortex). It is intrinsically functionally connected (with a negative correlation) with Brodmann Area 46.",
+  "clinical_significance": "The subcallosal cingulate gyrus (CG25), encompassing BA25 and parts of BA24 and BA32, is significantly implicated in major depression. It is a target for deep brain stimulation (DBS) to treat treatment-resistant depression, where it is metabolically overactive. This hyperactivity is associated with poor therapeutic response to cognitive-behavioral therapy and venlafaxine. DBS in BA25 has successfully treated severely depressed individuals. Neurofeedback targeting BA25 has shown significant reduction in depression symptoms. Transcranial magnetic stimulation (TMS) targeting BA46 (which has negative intrinsic functional connectivity with BA25) is more effective for depression. Responses of BA25 to sad stimuli are affected by cortisol, suggesting that hypothalamic–pituitary–adrenal axis (HPA axis) dysregulation might contribute to depression-related changes in BA25 activity.",
+  "vertices": 5246,
+  "hemisphere": "Right"
+}

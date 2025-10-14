@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_76",
+  "name": "Brodmann Area 21 (Middle Temporal Gyrus)",
+  "ba_label": "BA21",
+  "description": "Brodmann Area 21 (Middle Temporal Gyrus) - BA21 is a higher-order visual association cortex with medium myelin content. It plays an important role in auditory processing, language comprehension, semantic memory, speech processing, and interpre",
+  "location": "Brodmann Area 21 (BA21) is part of the temporal cortex in the human brain, encompassing most of the lateral temporal cortex, and corresponding approximately to the middle temporal gyrus. It is a subdivision of the cytoarchitecturally defined temporal region of the cerebral cortex. BA21 is superior to BA20 and inferior to BA40 and BA41. It is bounded rostrally by the temporopolar area 38, ventrally by the inferior temporal area 20, caudally by the occipitotemporal area 37, and dorsally by the superior temporal area 22.",
+  "function": "BA21 is a higher-order visual association cortex with medium myelin content. It plays an important role in auditory processing, language comprehension, semantic memory, speech processing, and interpreting social cues like tone of voice and facial expressions. It is involved in processing sensory information, language, and memory.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "BA21 has been implicated in delta-beta coupling, particularly in relation to state anxiety, suggesting an interaction between very slow (delta, 0.5-4Hz) and faster (beta) oscillations within this region. Delta waves are typically associated with deep, dreamless sleep and 'rest and repair' modes."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "While specific, isolated characteristics for each EEG band directly attributed solely to BA21 are not extensively detailed, general theta oscillations (4-8Hz) are associated with memory functions and can predict lower cognitive functioning if increased during resting state. Increased spindle-related brain activation has been observed in the right middle temporal gyrus (BA21) during N2 sleep, suggesting its involvement in sleep architecture and memory consolidation processes during lighter non-REM sleep stages."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "While specific, isolated characteristics for each EEG band directly attributed solely to BA21 are not extensively detailed, general alpha oscillations (8-13Hz) are associated with relaxed states and can be involved in memory functions."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "BA21 has been implicated in delta-beta coupling, particularly in relation to state anxiety, suggesting an interaction between slow (delta) and faster (beta, 13-30Hz) oscillations within this region. Beta waves are generally associated with active, external attention."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Synchronization of gamma oscillations (30-100Hz+) in the middle temporal gyrus (BA21) has been shown to increase functional connectivity, highlighting its role in coordinating neural communication and supporting higher-order cognitive functions."
+    }
+  },
+  "connections": [
+    "BA20",
+    "BA21",
+    "BA37",
+    "Hippocampus",
+    "Parahippocampal cortex"
+  ],
+  "connectivity_pattern": "BA21 works closely with other language regions, including Wernicke’s area (BA22). It exhibits complex functional connectivity patterns with other brain regions, contributing to higher-order cognitive functions, including involvement in working memory tasks and emotional processing. Synchronization of gamma oscillations in BA21 increases its functional connectivity. Its connectivity can be altered in various neurological and psychiatric conditions.",
+  "clinical_significance": "BA21 is critically involved in various neurological and psychiatric conditions. Reduced activity is observed in neurodegenerative disorders like Alzheimer's disease, contributing to language and memory impairments. Damage or dysfunction can lead to aphasia. Imbalanced functional connectivity of the left BA21 is linked to social anxiety disorder, and the left BA21 has been associated with hallucinations.",
+  "vertices": 8029,
+  "hemisphere": "Left"
+}

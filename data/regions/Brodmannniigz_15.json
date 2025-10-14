@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_15",
+  "name": "Visual Area V3B",
+  "ba_label": "V3B",
+  "description": "Visual area V3B - object shape and depth",
+  "location": "Occipital lobe (Right hemisphere)",
+  "function": "Part of dorsal visual stream, involved in recognizing object shape and depth",
+  "connections": [
+    "BA17 (V1)",
+    "BA18 (V2)",
+    "BA19",
+    "Visual thalamus",
+    "Superior colliculus"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 23814,
+  "hemisphere": "Right"
+}

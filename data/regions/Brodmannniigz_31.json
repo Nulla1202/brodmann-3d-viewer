@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_31",
+  "name": "Insula/Orbitofrontal Cortex (Area 14c)",
+  "ba_label": "14c",
+  "description": "Insula/Orbitofrontal cortex - interoception and emotion integration",
+  "location": "Insula/Orbitofrontal region (Right hemisphere)",
+  "function": "Involved in integration of interoceptive sensations and emotions",
+  "connections": [
+    "Orbitofrontal cortex",
+    "Amygdala",
+    "Ventral striatum",
+    "Anterior cingulate"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 10394,
+  "hemisphere": "Right"
+}

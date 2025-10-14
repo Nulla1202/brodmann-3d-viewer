@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_50",
+  "name": "Anterior-mid-posterior Insula",
+  "ba_label": "Iapm",
+  "description": "Insula (anterior-mid-posterior) - interoception and emotion",
+  "location": "Insular cortex (Left hemisphere)",
+  "function": "Part of insula involved in interoceptive sensations and emotional processing",
+  "connections": [
+    "Insula",
+    "Anterior cingulate",
+    "Amygdala",
+    "Orbitofrontal cortex"
+  ],
+  "clinical_significance": "Damage impairs interoceptive processing",
+  "vertices": 5954,
+  "hemisphere": "Left"
+}

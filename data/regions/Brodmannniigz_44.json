@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_44",
+  "name": "Orbitofrontal Cortex (Area 11l, lateral)",
+  "ba_label": "11l",
+  "description": "Orbitofrontal cortex (lateral) - social decision making",
+  "location": "Orbitofrontal region lateral (Left hemisphere)",
+  "function": "Involved in decision-making and emotional control in social situations",
+  "connections": [
+    "Orbitofrontal cortex",
+    "Amygdala",
+    "Ventral striatum",
+    "Anterior cingulate"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 5414,
+  "hemisphere": "Left"
+}

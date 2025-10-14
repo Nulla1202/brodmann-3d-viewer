@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_5",
+  "name": "Brodmann Area 4p (Primary Motor Cortex, posterior)",
+  "ba_label": "BA4p",
+  "description": "Primary motor cortex (posterior) - hand and finger movements",
+  "location": "Precentral gyrus (Right hemisphere)",
+  "function": "Commands voluntary movements, especially precise movements of hands and fingers",
+  "connections": [
+    "BA4",
+    "BA6",
+    "Basal ganglia",
+    "Cerebellum",
+    "Spinal cord"
+  ],
+  "clinical_significance": "Damage impairs fine motor control of hands and fingers",
+  "vertices": 20900,
+  "hemisphere": "Right"
+}

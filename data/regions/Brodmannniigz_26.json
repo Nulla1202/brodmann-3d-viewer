@@ -1,0 +1,15 @@
+{
+  "id": "Brodmannniigz_26",
+  "name": "Intraparietal Sulcus Area 3",
+  "ba_label": "IPS3",
+  "description": "Intraparietal sulcus area 3 - visual attention control",
+  "location": "Intraparietal sulcus (Right hemisphere)",
+  "function": "Involved in visual attention control and eye-hand coordination",
+  "connections": [
+    "Thalamus",
+    "Adjacent cortical areas"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 9057,
+  "hemisphere": "Right"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_13",
+  "name": "Brodmann Area 18 (Secondary Visual Cortex, V2)",
+  "ba_label": "BA18 (V2)",
+  "description": "Secondary visual cortex - complex visual processing",
+  "location": "Occipital lobe (Right hemisphere)",
+  "function": "Receives information from primary visual cortex and processes contours, color, and depth more complexly",
+  "connections": [
+    "BA17 (V1)",
+    "BA18 (V2)",
+    "BA19",
+    "Visual thalamus",
+    "Superior colliculus"
+  ],
+  "clinical_significance": "Lesions cause complex visual processing deficits",
+  "vertices": 10621,
+  "hemisphere": "Right"
+}

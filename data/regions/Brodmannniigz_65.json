@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_65",
+  "name": "Brodmann Area 44 (Broca's Area)",
+  "ba_label": "BA44",
+  "description": "Brodmann Area 44 (Broca's Area) - BA44 is a central node in language production, particularly in encoding phonological word forms into articulatory plans, syntactic processing, speech articulation, and fluency. It is a key component o",
+  "location": "Brodmann Area 44 (BA44) is located in the pars opercularis of the inferior frontal gyrus, part of the frontal cortex in the human brain. It is situated anterior to the premotor cortex (BA6) and inferior to BA9. Its boundaries include the inferior precentral sulcus caudally, the anterior ascending limb of the lateral sulcus rostrally, and it surrounds the diagonal sulcus. It borders the insula in the depth of the lateral sulcus. Cytoarchitectonically, it is bounded caudally and dorsally by agranular frontal area 6, dorsally by granular frontal area 9, and rostrally by the triangular part of the inferior frontal gyrus (BA45).",
+  "function": "BA44 is a central node in language production, particularly in encoding phonological word forms into articulatory plans, syntactic processing, speech articulation, and fluency. It is a key component of Broca's area (along with BA45). Beyond language, BA44 is involved in motor functions, including hand movements, and is part of the mirror neuron system, supporting action recognition and manual praxis. It also plays a role in selective response suppression (especially right BA44), working memory, pain anticipation, tactile stimulation, and object manipulation.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "BA44's specific delta wave characteristics are not explicitly detailed in the provided sources. General delta activity (0.5-4Hz) is typically associated with deep sleep, but can also be observed in certain pathological conditions or during specific cognitive states, though no direct link to BA44 was found."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "BA44's specific theta wave characteristics are not explicitly detailed in the provided sources. General theta activity (4-8Hz) is often associated with memory encoding, navigation, and meditative states. While BA44 is involved in cognitive domains like working memory, specific theta patterns for this area were not found."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "BA44's specific alpha wave characteristics are not explicitly detailed in the provided sources. General alpha activity (8-13Hz) is associated with relaxed wakefulness and can be influenced by various cognitive states, but direct, specific characteristics for BA44 were not found."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "BA44's specific beta wave characteristics are not explicitly detailed in the provided sources. General beta activity (13-30Hz) is typically associated with active thinking, alertness, and concentration. While BA44 is involved in active cognitive processes, specific beta patterns for this area were not found."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "BA44's specific gamma wave characteristics are not explicitly detailed in the provided sources. General gamma activity (30-100Hz+) is associated with higher-level cognitive processing, perception, and consciousness. While BA44 is involved in complex cognitive functions, specific gamma patterns for this area were not found."
+    }
+  },
+  "connections": [
+    "BA22",
+    "BA44",
+    "BA45",
+    "BA47",
+    "Arcuate fasciculus"
+  ],
+  "connectivity_pattern": "BA44 exhibits strong cortical connections with BA45, the premotor cortex (BA6), and the superior temporal gyrus. It forms robust links with lateral temporal cortex areas, crucial for speech processing in the left hemisphere. Subcortical connections include pathways to the basal ganglia, thalamus, and corticospinal tract, forming a cortico-thalamo-cortical circuitry proposed to subserve computational grammar. White matter pathways involve dorsal and ventral language streams: the dorsal pathway connects the superior temporal gyrus to BA44 via the arcuate fasciculus and superior longitudinal fasciculus (auditory-motor integration, higher-level language functions); the ventral pathway links BA45 and temporal cortex through the extreme capsule fiber system, and the uncinate fasciculus connects the frontal operculum with anterior superior temporal gyrus/sulcus. The arcuate fasciculus connects BA44 and Wernicke's area, facilitating speech production and reading aloud.",
+  "clinical_significance": "Lesions in BA44 are classically associated with Broca's aphasia, characterized by nonfluent, effortful, agrammatic, and telegraphic speech, poor naming, semantic and phonemic paraphasic errors, impaired repetition, and relatively spared comprehension. Lesions often extend to surrounding frontal areas, white matter, and basal ganglia. More restricted lesions can lead to aphemia (milder, transient motor speech impairment). Speech dyspraxia (apraxia of speech) is also linked to BA44 lesions, manifesting as deficits in articulatory planning and effortful, dysprosodic speech. BA44 abnormalities or altered connectivity are associated with developmental and acquired language disorders like specific language impairment (SLI), progressive nonfluent aphasia, and stuttering. Therapeutic approaches like low-frequency repetitive transcranial magnetic stimulation (LF-rTMS) targeting the right inferior frontal gyrus (contralesional homologue) combined with speech therapy have shown improvements in nonfluent aphasia.",
+  "vertices": 8646,
+  "hemisphere": "Left"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_48",
+  "name": "Anterior-lateral Insula",
+  "ba_label": "Ial",
+  "description": "Insula (anterior-lateral) - emotion and self-awareness",
+  "location": "Insular cortex (Left hemisphere)",
+  "function": "Involved in processing emotions, especially discomfort and disgust, and self-awareness",
+  "connections": [
+    "Insula",
+    "Anterior cingulate",
+    "Amygdala",
+    "Orbitofrontal cortex"
+  ],
+  "clinical_significance": "Lesions affect emotional awareness and interoception",
+  "vertices": 15934,
+  "hemisphere": "Left"
+}

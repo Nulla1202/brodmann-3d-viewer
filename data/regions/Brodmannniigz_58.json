@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_58",
+  "name": "Brodmann Area 3",
+  "ba_label": "BA3",
+  "description": "Brodmann Area 3 - BA3 is a crucial component of the primary somatosensory cortex. Its primary functions include processing sensory information from the body, such as touch, temperature, pain, and proprioception (the se",
+  "location": "Brodmann Area 3 (BA3) is part of the primary somatosensory cortex (S1), located in the postcentral gyrus within the parietal lobe. It is situated just on the other side of the central sulcus from the primary motor cortex, forming part of the sensorimotor cortex.",
+  "function": "BA3 is a crucial component of the primary somatosensory cortex. Its primary functions include processing sensory information from the body, such as touch, temperature, pain, and proprioception (the sense of body position and movement). It is essential for sensory perception, including two-point discrimination. BA3 also plays an important role in fine motor control and motor learning by coordinating movement based on sensory input.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "General EEG studies indicate delta waves (0.5-4Hz) are associated with deep sleep and unconscious states. While specific characteristics for BA3 are not extensively detailed in the provided sources, delta activity in the somatosensory cortex would typically reflect reduced cortical activity or pathological states."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "General EEG studies indicate theta waves (4-8Hz) are associated with drowsiness, meditation, and memory processing. While specific characteristics for BA3 are not extensively detailed in the provided sources, theta activity in the somatosensory cortex would typically reflect states of reduced alertness or specific cognitive processing related to sensory input."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Primary somatosensory cortex (including BA3) exhibits alpha rhythm desynchronization during movement execution and observation. In resting state, central alpha rhythms are mainly localized in the primary somatosensory cortex. The alpha component of the mu rhythm is suppressed during movement observation, potentially linking action observation to action execution motor programs."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Primary somatosensory cortex (including BA3) exhibits beta rhythm desynchronization during movement execution and observation. In resting state, central beta rhythms are localized slightly more anteriorly than alpha rhythms. The beta component of the mu rhythm is suppressed during movement observation, potentially linking action observation to action execution motor programs."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Gamma rhythms (30-100Hz or more) in sensorimotor areas are generated and modulated during action execution and observation. While gamma rhythms are especially involved in action execution in motor areas (BA4 and BA6), their specific role and modulation within BA3 during sensory processing are less explicitly detailed in the provided sources, though they are generally associated with higher-level cognitive functions and sensory binding."
+    }
+  },
+  "connections": [
+    "BA1",
+    "BA2",
+    "BA3",
+    "BA5",
+    "Thalamus"
+  ],
+  "connectivity_pattern": "BA3 receives its main inputs from the thalamus, acting as a relay station for sensory information from the skin, muscles, and joints. It has strong reciprocal cortical connections with the primary motor cortex (M1) and other somatosensory brain regions. It works closely with the primary motor cortex as part of the sensorimotor cortex, sending feedback to motor areas for smooth and coordinated movements. It also connects with other Brodmann areas involved in higher-level processing.",
+  "clinical_significance": "Lesions or dysfunction in BA3 can lead to impairments in sensory perception, including touch, temperature, pain, and proprioception. Changes in BA3 activity are observed in various neurological conditions affecting sensory processing and motor control. Selective surgical ablations of S1 (including BA3) were historically used for intractable pain. Abnormal functional connectivity in the primary sensory network, which includes BA3, has been observed in conditions like Autism Spectrum Disorder (ASD).",
+  "vertices": 16596,
+  "hemisphere": "Left"
+}

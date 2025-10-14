@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_54",
+  "name": "Brodmann Area 8",
+  "ba_label": "BA8",
+  "description": "Brodmann Area 8 - BA8 is primarily involved in the control of voluntary conjugate eye movements, particularly saccades, through its frontal eye fields (FEF). It also plays a role in executive control processes, includi",
+  "location": "Brodmann Area 8 (BA8) is located in the frontal cortex of the human brain, specifically in the posterior part of the superior and middle frontal gyri. It lies anterior to Brodmann Area 6 (premotor cortex) and posterior to areas 9 and 46 (dorsolateral prefrontal cortex). It includes the frontal eye fields (FEF) at the intersection of the precentral and superior frontal sulci. Cytoarchitecturally, BA8 is distinguished by a thin granular layer IV and clusters of large, intensely immunoreactive pyramidal cells in deep layers III and V.",
+  "function": "BA8 is primarily involved in the control of voluntary conjugate eye movements, particularly saccades, through its frontal eye fields (FEF). It also plays a role in executive control processes, including working memory, selective attention, and top-down modulation of visual processing. Medial BA8 is involved in the explicit evaluation of emotional expressions and reasoning about mental states. It is also implicated in planning complex movements and possibly in the management of uncertainty or encoding hope.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "An increase of delta power (0.5-4 Hz) in the right middle frontal gyrus (Brodmann Area 8) has been observed in overweight and obese patients with three or more food addiction symptoms during a resting state after tasting a chocolate milkshake. Generally, increased delta activity can be associated with deep sleep or certain pathological conditions."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Theta waves (4-8 Hz) in the frontal eye fields (FEF) show synchrony with the anterior cingulate cortex during sensorimotor mapping. The phase of theta oscillations (3-6 Hz) in the FEF is associated with temporal and spatial variation in working memory readout. Increased theta power in frontal regions can be linked to lower cognitive functioning and is observed in children with learning difficulties."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Frontal eye fields (FEF), which are part of BA8, are causally involved in the attentional top-down control of anticipatory alpha power (8-12 Hz) in the contralateral visual cortex. Alpha oscillations support covert attention and are sensitive to creativity-related demands, showing increases at frontal and right parietal sites during creative ideation. Alpha waves are also associated with behavioral inhibition."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Beta waves (13-30 Hz) in the frontal eye fields (FEF) show synchrony with the anterior cingulate cortex during sensorimotor mapping. Increased beta activity can be associated with active concentration and mental engagement. High beta (above 20-38 Hz) is linked to complex thought, high anxiety, or great excitement."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "The frontal eye fields (FEF) control attentional modulation of gamma oscillations (30-100 Hz or more) in the contralateral occipitoparietal cortex. Gamma oscillations are generally associated with higher-order cognitive functions, such as attention, perception, and problem-solving."
+    }
+  },
+  "connections": [
+    "BA8",
+    "BA9",
+    "BA46",
+    "Anterior cingulate",
+    "Basal ganglia"
+  ],
+  "connectivity_pattern": "BA8 receives afferent inputs from limbic structures, visuo- and audiospatial areas, and the visual cortex. The primary thalamic input to BA8 arises from the ventral anterior nucleus, projecting to the anterior bank of the arcuate sulcus. BA8 receives input from the occipital and parietal lobes. The saccadic pathway from BA8 travels through the genu of the internal capsule, decussates at the upper pons, and synapses in the paramedian pontine reticular formation (PPRF). The frontal eye fields (FEF) within BA8 show prominent synchronization with the anterior cingulate cortex (ACC) in theta (3-9 Hz) and beta (12-30 Hz) frequency bands. FEF also controls attentional modulation of alpha and gamma oscillations in the contralateral occipitoparietal cortex.",
+  "clinical_significance": "Damage to BA8, such as from stroke, trauma, or infection, can cause tonic deviation of the eyes towards the side of the injury (gaze palsy). Seizure activity in BA8 can induce gaze deviation away from the affected hemisphere. Lesions in BA8 lead to deficits in spatial attention, characterized by abnormal eye movement patterns (loss of logical order, haphazard examination, gaze inertia) and spatial neglect. In schizophrenia, dysfunction of the right frontal eye field (BA8) is linked to abnormal eye movement patterns (longer saccades, shorter fixations), reflecting a more peripheral visual processing style and gaze discrimination deficits. Increased delta power in the right middle frontal gyrus (BA8) has been observed in overweight and obese patients with food addiction.",
+  "vertices": 13066,
+  "hemisphere": "Left"
+}

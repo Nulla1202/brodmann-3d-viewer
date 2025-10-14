@@ -1,0 +1,15 @@
+{
+  "id": "Brodmannniigz_18",
+  "name": "Posterior Inferior Temporal Complex (dorsal)",
+  "ba_label": "PITd",
+  "description": "Posterior inferior temporal complex (dorsal) - high-level visual processing",
+  "location": "Inferior temporal cortex (Right hemisphere)",
+  "function": "Involved in high-level visual processing for recognizing object shapes and features",
+  "connections": [
+    "Thalamus",
+    "Adjacent cortical areas"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 14626,
+  "hemisphere": "Right"
+}

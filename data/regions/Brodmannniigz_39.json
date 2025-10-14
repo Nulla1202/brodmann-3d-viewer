@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_39",
+  "name": "Orbitofrontal Cortex (Area 47m, medial)",
+  "ba_label": "47m",
+  "description": "Orbitofrontal cortex (medial) - reward prediction",
+  "location": "Orbitofrontal region medial (Right hemisphere)",
+  "function": "Involved in reward prediction and emotional decision-making",
+  "connections": [
+    "Orbitofrontal cortex",
+    "Amygdala",
+    "Ventral striatum",
+    "Anterior cingulate"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 9240,
+  "hemisphere": "Right"
+}

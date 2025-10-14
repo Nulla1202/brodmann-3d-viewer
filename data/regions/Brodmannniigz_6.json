@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_6",
+  "name": "Brodmann Area 3a",
+  "ba_label": "BA3a",
+  "description": "Primary somatosensory cortex - proprioception",
+  "location": "Postcentral gyrus (Right hemisphere)",
+  "function": "Processes proprioceptive sensations from muscles and joints (sense of body position and movement)",
+  "connections": [
+    "BA1",
+    "BA2",
+    "BA3",
+    "BA5",
+    "Thalamus"
+  ],
+  "clinical_significance": "Damage affects proprioception and body position awareness",
+  "vertices": 21208,
+  "hemisphere": "Right"
+}

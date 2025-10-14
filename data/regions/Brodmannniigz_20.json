@@ -1,0 +1,15 @@
+{
+  "id": "Brodmannniigz_20",
+  "name": "Parietal Operculum 1",
+  "ba_label": "OP1",
+  "description": "Parietal operculum 1 - tactile discrimination",
+  "location": "Parietal operculum (Right hemisphere)",
+  "function": "Part of secondary somatosensory cortex, involved in tactile discrimination and texture recognition",
+  "connections": [
+    "Thalamus",
+    "Adjacent cortical areas"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 5862,
+  "hemisphere": "Right"
+}

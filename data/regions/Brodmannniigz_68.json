@@ -1,0 +1,45 @@
+{
+  "id": "Brodmannniigz_68",
+  "name": "Brodmann Area 39 (Angular Gyrus)",
+  "ba_label": "BA39",
+  "description": "Brodmann Area 39 (Angular Gyrus) - Primary functions include spatial cognition, language processes (reading, writing, and interpretation of written words), attention, number processing, memory retrieval, social cognition, and conflict ",
+  "location": "Brodmann Area 39 (BA39), also known as the angular gyrus, is part of the parietal cortex in the human brain. It encompasses the angular gyrus, lying near the junction of temporal, occipital, and parietal lobes. It is located posterior to the supramarginal gyrus, the second region that forms the inferior parietal lobule. The two angular gyri are connected via the isthmus of the corpus callosum and dorsal splenium. Its blood supply arises from the middle cerebral artery.",
+  "function": "Primary functions include spatial cognition, language processes (reading, writing, and interpretation of written words), attention, number processing, memory retrieval, social cognition, and conflict resolution.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Less frequent delta waves appear in the angular gyrus. BA39 has been identified as a delta generator. Delta oscillations may inhibit interferences affecting mental tasks by modulating networks, and increase during internal concentration."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Continuous theta burst stimulation (cTBS) over the left angular gyrus has been shown to reduce mind wandering propensity and plays a causal role in insight-driven memory updating. Decreased theta power has been observed in the angular gyrus during episodic memory encoding."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Angular gyrus alpha oscillations are involved in context-driven perception. Resting-state modulation of alpha rhythms by interference with angular gyrus activity can enhance dominant idling EEG alpha rhythms. Connectivity at alpha oscillations is reduced during tonic pain."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Connectivity at beta oscillations in the angular gyrus is reduced during tonic pain. Increased activity in high beta waves of BA39 has been observed in relation to own-body perceptions."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Increased high gamma power has been observed in the angular gyrus during episodic memory encoding."
+    }
+  },
+  "connections": [
+    "BA5",
+    "BA7",
+    "Prefrontal cortex",
+    "Premotor cortex"
+  ],
+  "connectivity_pattern": "BA39 forms connections with the ipsilateral prefrontal cortex, inferior and superior frontal cortices (involved in attention and calculation), opercular cortex, parahippocampal gyrus and hippocampus (involved in memory and spatial orientation), supramarginal gyrus (involved in processing sensory modalities: proprioceptive, auditory, visual, and somatosensory), and the caudate nucleus (involved in the cognitive loop of the brain). The superior longitudinal fasciculus connects it to prefrontal and inferior frontal cortices, including the arcuate fasciculus.",
+  "clinical_significance": "Lesions to the angular gyrus can result in Gerstmann syndrome (problems with arithmetic, writing, telling left from right, and inability to tell one’s fingers apart), behavioral changes, and reduced activity in dyslexic patients. Damage to the left BA39 may result in dyslexia or semantic aphasia. Electrical stimulation of the right angular gyrus can induce an 'out-of-body' experience.",
+  "vertices": 628,
+  "hemisphere": "Left"
+}

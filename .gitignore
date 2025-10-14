@@ -1,0 +1,21 @@
+# Python scripts (not needed for deployment)
+*.py
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*.log
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep only essential files for web app
+# Include: index.html, data/, BA_v2.glb

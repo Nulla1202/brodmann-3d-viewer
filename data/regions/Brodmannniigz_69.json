@@ -1,0 +1,43 @@
+{
+  "id": "Brodmannniigz_69",
+  "name": "Brodmann Area 43 (Primary Gustatory Cortex)",
+  "ba_label": "BA43",
+  "description": "Brodmann Area 43 (Primary Gustatory Cortex) - Primarily considered the primary gustatory cortex, responsible for processing taste perception. Responds to pressure on the eardrum and to oral intake (eating and drinking). May be the primary somatos",
+  "location": "Subcentral area, a structurally distinct area of the cerebral cortex defined by cytoarchitecture. Subdivision of the postcentral region of the brain. Occupies the postcentral gyrus, located between the ventrolateral extreme of the central sulcus and the depth of the lateral sulcus, at the insula. Rostral border: approximated by the anterior subcentral sulcus. Caudal border: approximated by the posterior subcentral sulcus. Cytoarchitecturally bounded rostrally by agranular frontal area 6, and caudally by caudal postcentral area 2 and supramarginal area 40.",
+  "function": "Primarily considered the primary gustatory cortex, responsible for processing taste perception. Responds to pressure on the eardrum and to oral intake (eating and drinking). May be the primary somatosensory cortex of the eardrum due to its response to eating and drinking changing middle ear pressure. Also reported to respond to tactile stimulation of the fingers. Involved in functional activation during semantic analysis, particularly in tasks involving selection of a verbal response from many possibilities.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Research suggests delta activity encodes taste information in the human brain, indicating its involvement in fundamental taste processing within BA43."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Generally associated with memory, navigation, and internal focus. While not directly linked to BA43, its role in complex cognitive tasks like semantic analysis might involve theta activity during memory retrieval or focused attention related to taste perception or somatosensory processing."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Typically associated with a relaxed, wakeful state. In BA43, alpha waves might reflect a resting state or inhibition of non-relevant sensory input during specific gustatory or somatosensory tasks."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Associated with active thinking, problem-solving, and focused concentration. Given BA43's involvement in semantic analysis and higher-order processing of sensory information, beta activity would likely be prominent during conscious processing of taste, tactile input, or verbal response selection."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Linked to higher-level cognitive functions, perception, and consciousness, including sensory binding. In BA43, gamma waves would be expected during intense gustatory experiences, complex somatosensory integration, or during the active selection of verbal responses, reflecting high-level information processing and integration."
+    }
+  },
+  "connections": [
+    "Thalamus",
+    "Adjacent cortical areas"
+  ],
+  "connectivity_pattern": "Increased connectivity in the right Brodmann area 43 observed in children with obsessive-compulsive disorder (fMRI study). Coactivation with Brodmann Area 13 (Insula and Parainsula Areas).",
+  "clinical_significance": "Increased connectivity in the right BA43 observed in children with obsessive-compulsive disorder.",
+  "vertices": 6985,
+  "hemisphere": "Left"
+}

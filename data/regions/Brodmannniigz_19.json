@@ -1,0 +1,15 @@
+{
+  "id": "Brodmannniigz_19",
+  "name": "Posterior Inferior Temporal Complex (ventral)",
+  "ba_label": "PITv",
+  "description": "Posterior inferior temporal complex (ventral) - object color and shape",
+  "location": "Inferior temporal cortex (Right hemisphere)",
+  "function": "High-level visual processing region involved in recognizing object color and shape",
+  "connections": [
+    "Thalamus",
+    "Adjacent cortical areas"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 6838,
+  "hemisphere": "Right"
+}

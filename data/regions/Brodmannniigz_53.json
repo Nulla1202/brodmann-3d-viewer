@@ -1,0 +1,15 @@
+{
+  "id": "Brodmannniigz_53",
+  "name": "Entorhinal Cortex",
+  "ba_label": "ER",
+  "description": "Entorhinal cortex - memory formation gateway",
+  "location": "Medial temporal lobe (Left hemisphere)",
+  "function": "Essential for memory formation and consolidation, functions as main information input gate to hippocampus",
+  "connections": [
+    "Thalamus",
+    "Adjacent cortical areas"
+  ],
+  "clinical_significance": "Damage causes severe memory impairment, often seen in Alzheimer's disease",
+  "vertices": 11358,
+  "hemisphere": "Left"
+}

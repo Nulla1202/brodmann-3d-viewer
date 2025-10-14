@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_14",
+  "name": "Visual Area V3A",
+  "ba_label": "V3A",
+  "description": "Visual area V3A - motion and depth",
+  "location": "Occipital lobe (Right hemisphere)",
+  "function": "Higher-order visual region involved in recognizing motion and depth",
+  "connections": [
+    "BA17 (V1)",
+    "BA18 (V2)",
+    "BA19",
+    "Visual thalamus",
+    "Superior colliculus"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 15778,
+  "hemisphere": "Right"
+}

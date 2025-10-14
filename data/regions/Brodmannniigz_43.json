@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_43",
+  "name": "Orbitofrontal Cortex (Area 11m, medial)",
+  "ba_label": "11m",
+  "description": "Orbitofrontal cortex (medial) - reward valuation",
+  "location": "Orbitofrontal region medial (Left hemisphere)",
+  "function": "Involved in reward value evaluation and preference-based choices",
+  "connections": [
+    "Orbitofrontal cortex",
+    "Amygdala",
+    "Ventral striatum",
+    "Anterior cingulate"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 13972,
+  "hemisphere": "Left"
+}

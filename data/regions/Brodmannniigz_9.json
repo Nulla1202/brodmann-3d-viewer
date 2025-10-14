@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_9",
+  "name": "Brodmann Area 17 (Primary Visual Cortex, V1)",
+  "ba_label": "BA17 (V1)",
+  "description": "Primary visual cortex - initial visual processing",
+  "location": "Occipital pole (Right hemisphere)",
+  "function": "First region to process visual information sent from retina, gateway of vision",
+  "connections": [
+    "BA17 (V1)",
+    "BA18 (V2)",
+    "BA19",
+    "Visual thalamus",
+    "Superior colliculus"
+  ],
+  "clinical_significance": "Damage causes cortical blindness in corresponding visual field",
+  "vertices": 18046,
+  "hemisphere": "Right"
+}

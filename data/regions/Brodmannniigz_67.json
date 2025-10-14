@@ -1,0 +1,45 @@
+{
+  "id": "Brodmannniigz_67",
+  "name": "Brodmann Area 23",
+  "ba_label": "BA23",
+  "description": "Brodmann Area 23 - Brodmann Area 23 is involved in processing emotions, feeling pain, creating emotional memories, and helping with social communication. It also plays a part in learning from emotional feedback and avoi",
+  "location": "BA23 is located within the posterior cingulate cortex, situated between Brodmann areas 30 and 31. It resides on the medial wall of the cingulate gyrus, specifically between the callosal sulcus and the cingulate sulcus. It is also referred to as the ventral posterior cingulate area 23. In humans, it occupies most of the posterior cingulate gyrus adjacent to the corpus callosum, bounded caudally by the parieto-occipital sulcus. Cytoarchitecturally, it is bordered dorsally by dorsal posterior cingulate area 31, rostrally by ventral anterior cingulate area 24, and ventrorostrally in its caudal half by the retrosplenial region.",
+  "function": "Brodmann Area 23 is involved in processing emotions, feeling pain, creating emotional memories, and helping with social communication. It also plays a part in learning from emotional feedback and avoiding negative experiences. Together with BA24 and BA28, it plays important roles in emotional processing, memory, and other cognitive functions within the limbic system.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Observed in the PCC, with some studies indicating their role in regulatory modulation, particularly in the eyes-open state (Wang et al., 2019; Lin et al., 2021)."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Present in the PCC, with some research suggesting a role in memory and cognitive processing, and potentially linked to drowsiness (Wang et al., 2019; Lin et al., 2021)."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Detected in the PCC, often associated with resting-state wakefulness and potentially reflecting preclinical amyloidosis and cognitive reserve (Wang et al., 2019; Lin et al., 2021; Lopez et al., 2024)."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Identified in the PCC, with studies noting their presence during various brain states (Wang et al., 2019)."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "While general gamma activity is associated with cognitive processing and attention, specific detailed characteristics for BA23 within the PCC are less explicitly detailed in the current search results. However, stimulation of the PCC has been shown to impair recall memory, with the degree of impairment predicted by stimulation-induced hippocampal gamma activity (Natu et al., 2019)."
+    }
+  },
+  "connections": [
+    "Anterior cingulate",
+    "Posterior cingulate",
+    "Hippocampus",
+    "Prefrontal cortex"
+  ],
+  "connectivity_pattern": "BA23 is a crucial component of the default mode network (DMN), a brain network active during wakeful rest and self-referential thought. It shows increased connectivity within the DMN, suggesting compensatory neural adaptations in certain conditions (Wang et al., 2025). It has well-differentiated layers and connections to other Brodmann areas. For instance, in macaques, subdivisions of BA23 show differential thalamic connections (Shibata & Yukie, 2003). Declines in connectivity between the BA23 region and both the lingual and fusiform gyri have been observed in some conditions (Wang et al., 2025).",
+  "clinical_significance": "Changes in BA23 and the broader PCC are implicated in various neurological and psychiatric conditions. For example, altered posterior cingulate cortical cytoarchitecture has been observed (Oblak et al., 2011). Increased connectivity within the DMN, particularly in BA23, has been noted in conditions like neuromyelitis optica spectrum disorder (NMOSD), correlating with improvements in EDSS scores (Wang et al., 2025). Mesial frontal grey matter atrophy, greatest in the motor cingulate (BA23), has been linked to clinical deficits in some disorders (Cordato et al., 2005). Elevated EEG functional connectivity between the PCC and subgenual prefrontal cortex (sgPFC) is significantly elevated in recurrent Major Depressive Disorder (rMDD) and is associated with rumination (Benschop et al., 2021). BA23 activation has also been correlated with social competence in cocaine addiction (Bachi et al., 2020).",
+  "vertices": 680,
+  "hemisphere": "Left"
+}

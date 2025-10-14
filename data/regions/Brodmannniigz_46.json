@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_46",
+  "name": "Frontopolar Cortex (Area 10m, medial)",
+  "ba_label": "10m",
+  "description": "Frontopolar cortex (medial) - introspection and theory of mind",
+  "location": "Frontal pole medial (Left hemisphere)",
+  "function": "Involved in introspective thinking about oneself and inferring others' mental states",
+  "connections": [
+    "BA8",
+    "BA9",
+    "BA46",
+    "Anterior cingulate",
+    "Basal ganglia"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 21999,
+  "hemisphere": "Left"
+}

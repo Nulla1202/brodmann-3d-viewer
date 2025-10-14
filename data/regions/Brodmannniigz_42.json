@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_42",
+  "name": "Frontopolar Cortex (Area 10r)",
+  "ba_label": "10r",
+  "description": "Frontopolar cortex - future planning and multitasking",
+  "location": "Frontal pole (Left hemisphere)",
+  "function": "Handles highest-level thinking including future planning, goal setting, and multitasking",
+  "connections": [
+    "BA8",
+    "BA9",
+    "BA46",
+    "Anterior cingulate",
+    "Basal ganglia"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 9326,
+  "hemisphere": "Left"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Brodmannniigz_73",
+  "name": "Brodmann Area 30",
+  "ba_label": "BA30",
+  "description": "Brodmann Area 30 - Brodmann Area 30, as part of the retrosplenial cortex, is involved in topographical orientation, including navigation in novel and familiar environments. It also plays a crucial role in higher-order c",
+  "location": "In the human, Brodmann Area 30 (BA30) is located in the isthmus of the cingulate gyrus. Cytoarchitecturally, it is bounded internally by the granular retrolimbic area 29, dorsally by the ventral posterior cingulate area 23, and ventrolaterally by the ectorhinal area 36.",
+  "function": "Brodmann Area 30, as part of the retrosplenial cortex, is involved in topographical orientation, including navigation in novel and familiar environments. It also plays a crucial role in higher-order cognitive functions like memory and attention.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Delta waves (0.5-4Hz) in the retrosplenial cortex (including BA30) are involved in coordinating communications among cortical, hippocampal, and thalamic regions. They are critical for memory consolidation, with the retrosplenial cortex facilitating slow wave propagation to other brain regions. Delta waves are also an integral part of REM sleep."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Theta waves (4-8Hz) in the retrosplenial cortex (RSC), which includes BA30, show significantly higher power during paradoxical sleep (PS, also known as REM sleep) compared to active waking. There is strong and specific phase-amplitude coupling between hippocampal theta and gamma oscillations in the RSC during PS. Neuronal discharge in the RSC increases just after the peak of hippocampal theta waves, indicating enhanced spiking in synchrony with theta during PS. Theta oscillations in the RSC are crucial for spatial memory and navigation, and are involved in hippocampal-dependent memory trace formation."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Alpha waves (8-13Hz) in the retrosplenial cortex (RSC), which includes BA30, are associated with relaxed wakefulness. Increasing retrosplenial alpha oscillation and decreasing hippocampocortical synchrony with memory age may signify a shift in memory processing. Alpha rhythms can act as an internal dynamic filter, adjusting in amplitude, phase, and frequency in response to cognitive demands, and are thought to have an inhibitory function, protecting new memories by inhibiting further sensory processing."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Beta waves (13-30Hz) in the retrosplenial cortex (RSC), including BA30, are characterized by 'β Bursting'. These bursts are associated with increased neuronal spiking and are strongly upregulated during spatial learning and memory processes. Beta oscillations in the RSC play a significant role in the formation, recall, and consolidation of contextual memory, and are involved in distinguishing environmental context. They are also functionally disrupted in the early stages of Alzheimer's disease."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Gamma waves (30-100Hz+) in the retrosplenial cortex (RSC), including BA30, are involved in various cognitive processes. High-frequency oscillations (HFOs; ~150 Hz) are generated in granular retrosplenial cortex layer 2/3 and can be driven by a hippocampus-subiculum pathway. These HFOs are coupled with hippocampal theta and gamma oscillations in online states or sharp-wave ripples. Gamma rhythms in the RSC are also associated with rapid interhemispheric communication and coordinate information transfer between brain structures involved in memory. Phase-amplitude coupling between hippocampal theta and gamma oscillations strongly and specifically increases in the RSC during paradoxical sleep."
+    }
+  },
+  "connections": [
+    "Anterior cingulate",
+    "Posterior cingulate",
+    "Hippocampus",
+    "Prefrontal cortex"
+  ],
+  "connectivity_pattern": "Brodmann Area 30 (BA30), as part of the retrosplenial cortex (RSC), demonstrates projections to the mid-dorsolateral prefrontal cortex (Brodmann areas 46 and 9) and the thalamus. Approximately 20% of cortical inputs to the entorhinal cortex arise from the retrosplenial cortex. The RSC is heavily interconnected with an array of brain networks, both cortical and subcortical.",
+  "clinical_significance": "Lesions to Brodmann Area 30 (BA30), as part of the retrosplenial cortex (RSC), lead to dysfunction in topographical orientation, including defective navigation in novel and familiar environments. The RSC is implicated in neuropsychiatric and neurodegenerative disorders. It is functionally disrupted in the early stages of Alzheimer's disease, with functional connectivity changes in BA30 observed in this condition. Changes in resting cerebral activities, including BA30, have also been noted in subacute ischemic stroke patients.",
+  "vertices": 18545,
+  "hemisphere": "Left"
+}

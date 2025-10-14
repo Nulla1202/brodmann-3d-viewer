@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_77",
+  "name": "Brodmann Area 38 (Temporal Pole)",
+  "ba_label": "BA38",
+  "description": "Brodmann Area 38 (Temporal Pole) - BA38 is a paralimbic region involved in high-level semantic representation and socio-emotional processing. It is a convergence zone where semantic memories stored in the ventral anterior temporal lobe",
+  "location": "Brodmann Area 38 (BA38), also known as the temporopolar area, is located at the anterior end of the temporal lobe, referred to as the temporal pole. It is a subdivision of the cytoarchitecturally defined temporal region of the cerebral cortex, primarily found in the most rostral portions of the superior temporal gyrus and the middle temporal gyrus. It is caudally bounded by inferior temporal area 20, middle temporal area 21, superior temporal area 22, and ectorhinal area 36.",
+  "function": "BA38 is a paralimbic region involved in high-level semantic representation and socio-emotional processing. It is a convergence zone where semantic memories stored in the ventral anterior temporal lobe are imbued with emotional significance and personal meaning. It also stores concepts of individual people, abstracted from perceptual representations, in a “face patch.”",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Specific normal delta wave characteristics for BA38 are not explicitly detailed in the provided search results. Generally, delta waves (0.5-4Hz) are associated with deep, dreamless sleep."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Specific normal theta wave characteristics for BA38 are not explicitly detailed in the provided search results. Generally, theta waves (4-8Hz) are associated with creativity, intuition, daydreaming, and light sleep."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Specific normal alpha wave characteristics for BA38 are not explicitly detailed in the provided search results. Generally, alpha waves (8-13Hz) are associated with a relaxed, wakeful state."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Specific normal beta wave characteristics for BA38 are not explicitly detailed in the provided search results. Generally, beta waves (13-30Hz) are associated with active thinking, alertness, and concentration."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Specific normal gamma wave characteristics for BA38 are not explicitly detailed in the provided search results. Generally, gamma waves (30-100Hz+) are associated with high-level cognitive processing, learning, and memory formation."
+    }
+  },
+  "connections": [
+    "BA20",
+    "BA21",
+    "BA37",
+    "Hippocampus",
+    "Parahippocampal cortex"
+  ],
+  "connectivity_pattern": "The uncinate fasciculus provides a direct bidirectional path to the orbitofrontal cortex, allowing mnemonic representations stored in the temporal pole to bias decision making in the frontal lobe.",
+  "clinical_significance": "Damage to the temporal pole can cause amnestic prosopagnosia (loss of recognition of familiar faces). Bilateral damage can lead to dramatic personality changes, as seen in Klüver-Bucy syndrome (fearlessness, hypersexuality, hyperorality) when combined with amygdala damage. BA38 is among the earliest areas affected by Alzheimer's disease, frontotemporal dementia, frontotemporal lobar degeneration, and is commonly involved at the start of temporal lobe seizures.",
+  "vertices": 8980,
+  "hemisphere": "Left"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_55",
+  "name": "Brodmann Area 6",
+  "ba_label": "BA6",
+  "description": "Brodmann Area 6 - BA6 plays a critical role in motor planning, sequencing, and control, with its primary function involving motor sequencing and movement planning. It is also involved in cognitive functions such as wor",
+  "location": "Brodmann Area 6 (BA6) is a cytoarchitectonic region of the frontal lobe, located anterior to the primary motor cortex (Brodmann Area 4). It encompasses both the premotor cortex and the supplementary motor area (SMA). Characterized as an agranular region lacking a distinct layer IV, BA6 covers the anterior part of the precentral gyrus and extends to the superior and middle frontal gyri, as well as the medial surface of the superior frontal gyrus. It is distinguished from BA4 by the absence or scarcity of Betz cells, poor lamination, and the presence of larger, more densely packed pyramidal neurons in lower layer III. The mesial sector of BA6 comprises SMA proper (F3) and pre-SMA (F6).",
+  "function": "BA6 plays a critical role in motor planning, sequencing, and control, with its primary function involving motor sequencing and movement planning. It is also involved in cognitive functions such as working memory. It is a higher-order motor area that mediates a transition from motor to cognitive functions. Subdivisions like SMA proper are associated with motor-related functions, while pre-SMA is associated with non-motor functions.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Slow wave activity (SWA) hotspots extend from BA6 to frontal (BA10) and parietal cortex. Slow waves have prominent foci in a precentral region corresponding approximately with BA6. Increased delta slow waves are linked to worsening PTSD symptoms over time in BA13, but specific characteristics for BA6 are not detailed in the provided snippets."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "A study found higher theta activity in BA6 in mild depressed subjects. A cluster of 11 channels located over premotor cortex (BA6, 5 channels) and parietal cortex (BA7, 4 channels) showed theta waves in children's waking electroencephalogram. Over bilateral prefrontal cortex, theta activity peaked during the early part of the delay phase at 700ms in a study on auditory pattern working memory."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Movement execution and observation induce a desynchronization of alpha rhythms in BA6. WM-load related changes were also detected at alpha frequencies (10-14 Hz) in BA6, but did not covary with the number of relevant WM items."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Movement execution and observation induce a desynchronization of beta rhythms in BA6, generally higher in amplitude during execution. These features also distinguish Parkinson's disease patients on and off medication using non-invasive recordings in a study of beta (13–30 Hz) oscillations over sensorimotor cortex."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Action execution induces a major synchronization of gamma rhythms in BA4 and BA6. Gamma-band activity in human prefrontal cortex (including BA6) codes for working memory. WM-load related changes were also detected at gamma frequencies (30-100 Hz) in BA6."
+    }
+  },
+  "connections": [
+    "BA4",
+    "BA6",
+    "Basal ganglia",
+    "Cerebellum",
+    "Spinal cord"
+  ],
+  "connectivity_pattern": "Posterior premotor areas (F2, F3, F4, F5) receive rich cortical projections from the parietal lobe and have direct access to the spinal cord and primary motor area. Anterior premotor areas (F6, F7) receive stronger input from prefrontal and cingulate cortices and send output only to the brainstem and other premotor areas. SMA proper is tightly coupled with movement generation and control, exhibiting direct connections to the primary motor cortex and spinal cord, and receiving input from the ventrolateral thalamus. Pre-SMA is linked to the caudate nucleus and anterior thalamus, and is strongly interconnected with prefrontal cortex, insula, superior frontal gyrus, and cingulate motor areas. Both SMA and pre-SMA receive input from spatially separate and neurochemically distinct regions of the cerebellum and basal ganglia.",
+  "clinical_significance": "Lesions in BA6 can result in motor deficits such as apraxia (inability to plan movements despite intact sensory and motor function), impaired serial movement parsing, paralysis, and impaired motor planning. Hypoactivation of BA6 is observed in Parkinson’s disease during executive function tasks. Disorders like alien hand syndrome and utilization behavior are associated with dysfunction of the mesial frontal lobe and fronto-striatal pathways, including pre-SMA and SMA within BA6. Abnormal tau phosphorylation in BA6 correlates with cognitive impairment and dementia severity. Speech disturbances (impaired speech initiation, aphemia) are attributed to lesions in the medial hemispheric part of BA6 (SMA). Exner’s area (part of BA6) is implicated in activating graphic motor codes for writing.",
+  "vertices": 22037,
+  "hemisphere": "Left"
+}

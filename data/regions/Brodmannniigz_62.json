@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_62",
+  "name": "Brodmann Area 2",
+  "ba_label": "BA2",
+  "description": "Brodmann Area 2 - Brodmann Area 2 is primarily involved in the processing of somatosensory information, including proprioception (the sense of body position and movement), texture discrimination, and the perception of ",
+  "location": "Brodmann Area 2 (BA2) is located in the postcentral gyrus of the parietal lobe, forming part of the primary somatosensory cortex (S1). It is cytoarchitectonically distinct but often grouped with BA1 and BA3. Specifically, it is found in the rostral wall of the postcentral sulcus.",
+  "function": "Brodmann Area 2 is primarily involved in the processing of somatosensory information, including proprioception (the sense of body position and movement), texture discrimination, and the perception of object size and shape. It integrates tactile and proprioceptive inputs to form a comprehensive understanding of objects and body position.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Specific characteristics for Delta waves (0.5-4Hz) in BA2 were not explicitly detailed in the search results, but generally, slow-wave activity (delta and theta bands) can be increased in certain pathological conditions or during deep sleep."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Specific characteristics for Theta waves (4-8Hz) in BA2 were not explicitly detailed in the search results, but generally, slow-wave activity (delta and theta bands) can be increased in certain pathological conditions or during internal focus, meditation, and memory processes."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "In primary somatosensory cortex (including BA1-2), alpha rhythms show desynchronization during movement execution and observation. Rolandic alpha (mu) rhythm strength is inversely related to fMRI-BOLD signal in the postcentral cortex, indicating a 'resting state' when strong."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "In primary somatosensory cortex (including BA1-2), beta rhythms show desynchronization during movement execution and observation. Rolandic beta rhythm strength is inversely related to fMRI-BOLD signal in the postcentral cortex, indicating a 'resting state' when strong."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "In primary somatosensory cortex (including BA1-2), gamma rhythms are generated and modulated during action execution and observation. Action execution induces a major synchronization of gamma rhythms, especially in motor areas (BA4 and BA6), but also present in BA1-2, with higher amplitude during execution than observation. These rhythms are involved in distinguishing self-actions from observed actions."
+    }
+  },
+  "connections": [
+    "BA1",
+    "BA2",
+    "BA3",
+    "BA5",
+    "Thalamus"
+  ],
+  "connectivity_pattern": "BA2 is functionally connected with other primary somatosensory areas (BA1, BA3) and receives efference copies from motor areas. It shows functional connectivity with the motor cortex (M1) and cerebellum, which are critical for balance control. It also exhibits connections with the precentral gyrus (BA6) and anterior cingulate (BA32).",
+  "clinical_significance": "Lesions affecting the primary somatosensory cortex (including BA2) can result in sensory deficits such as agraphesthesia (inability to recognize writing on the skin), astereognosia (inability to identify objects by touch), hemihypesthesia (decreased sensation on one side of the body), and loss of proprioception. It can also lead to numbness, tingling, and partial sensory loss. BA2 activity differences have been observed in response to pressure stimuli on finger joints.",
+  "vertices": 2159,
+  "hemisphere": "Left"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_45",
+  "name": "Orbitofrontal Cortex (Area 47r)",
+  "ba_label": "47r",
+  "description": "Orbitofrontal cortex - emotional decision making",
+  "location": "Orbitofrontal region (Left hemisphere)",
+  "function": "Involved in emotional value judgment and decision-making",
+  "connections": [
+    "Orbitofrontal cortex",
+    "Amygdala",
+    "Ventral striatum",
+    "Anterior cingulate"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 26235,
+  "hemisphere": "Left"
+}

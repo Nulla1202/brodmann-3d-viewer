@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_56",
+  "name": "Brodmann Area 4",
+  "ba_label": "BA4",
+  "description": "Brodmann Area 4 - BA4 controls voluntary movements, such as picking up objects or walking. It initiates and organizes voluntary movements, ensuring smooth muscle coordination. It also plays a role in planning and seque",
+  "location": "Brodmann Area 4 (BA4), also known as the primary motor cortex (M1), is located in the posterior portion of the frontal lobe, specifically in the precentral gyrus. It occupies the anterior bank of the central sulcus and the posterior margin of the precentral gyrus. Cytoarchitecturally, it is characterized by prominent layers III and V, with giant pyramidal cells (Betz cells) in layer V.",
+  "function": "BA4 controls voluntary movements, such as picking up objects or walking. It initiates and organizes voluntary movements, ensuring smooth muscle coordination. It also plays a role in planning and sequencing movements for coordinated and fluid actions. It controls movement on the contralateral side of the body (e.g., the left hemisphere controls the right side of the body).",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Delta oscillatory rhythms are prominent in the motor cortex and are suggested to shape motor behaviors and sensorimotor processes. Decreases in cortical slow-wave activity (SWA), which includes delta waves, have been observed in BA4 during local sleep. Peaks in delta oscillations in the primary motor cortex can align with periods of increased gamma power."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "While general characteristics of theta waves (associated with light sleep, deep meditation, and creativity) are known, specific characteristics or functional significance of theta waves within BA4 were not explicitly detailed in the reviewed literature."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Desynchronization in BA4 during both movement execution and observation. Higher amplitude desynchronization during execution."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Desynchronization in BA4 during both movement execution and observation. Higher amplitude desynchronization during execution."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Major synchronization in BA4 during action execution."
+    }
+  },
+  "connections": [
+    "BA4",
+    "BA6",
+    "Basal ganglia",
+    "Cerebellum",
+    "Spinal cord"
+  ],
+  "connectivity_pattern": "BA4's primary output pathway is the corticospinal tract, with fibers descending to the spinal cord and synapsing directly on motor neurons for voluntary muscle control. It exhibits significant functional connectivity with other motor areas, including the premotor cortex (BA6), supplementary motor area (SMA), basal ganglia, and cerebellum, forming a complex network for motor planning, execution, and coordination.",
+  "clinical_significance": "Damage to BA4 typically results in contralateral paresis (weakness or partial paralysis), leading to loss of coordination and poor dexterity. It is implicated in neurological conditions like Parkinson's disease. Precise localization of BA4 is crucial for surgical planning and therapeutic interventions such as motor cortex stimulation and transcranial magnetic stimulation (TMS).",
+  "vertices": 8487,
+  "hemisphere": "Left"
+}

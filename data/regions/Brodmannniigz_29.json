@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_29",
+  "name": "Visual Area V4 (ventral)",
+  "ba_label": "V4v",
+  "description": "Visual area V4 (ventral) - color and shape processing",
+  "location": "Occipital-temporal cortex (Right hemisphere)",
+  "function": "Visual region mainly involved in processing color and shape",
+  "connections": [
+    "BA17 (V1)",
+    "BA18 (V2)",
+    "BA19",
+    "Visual thalamus",
+    "Superior colliculus"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 7638,
+  "hemisphere": "Right"
+}

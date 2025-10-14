@@ -1,0 +1,45 @@
+{
+  "id": "Brodmannniigz_49",
+  "name": "Brodmann Area 24 (Anterior Cingulate Cortex)",
+  "ba_label": "BA24",
+  "description": "Brodmann Area 24 (Anterior Cingulate Cortex) - BA24 is generally involved in emotional and cognitive processing. More specifically, it plays a role in regulating emotions, motivation, detecting errors, and controlling automatic body functions like",
+  "location": "Brodmann Area 24 (BA24) is part of the anterior cingulate in the human brain, specifically known as the ventral anterior cingulate area 24. It is a subdivision of the cytoarchitecturally defined cingulate cortex region of the cerebral cortex (area cingularis anterior ventralis). BA24 occupies most of the anterior cingulate gyrus in an arc around the genu of the corpus callosum. Its outer border corresponds approximately to the cingulate sulcus. Cytoarchitecturally, it is bounded internally by the pregenual area 33, externally by the dorsal anterior cingulate area 32, and caudally by the ventral posterior cingulate area 23 and the dorsal posterior cingulate area 31.",
+  "function": "BA24 is generally involved in emotional and cognitive processing. More specifically, it plays a role in regulating emotions, motivation, detecting errors, and controlling automatic body functions like heart rate.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "High delta (0.5-4Hz) wave power, particularly during NREM sleep, is critical for memory, cognition, sleep maintenance, and mental health. It is also involved in the clearance of toxic proteins from the brain. While not exclusively localized to BA24, the anterior cingulate cortex (which includes BA24) is part of the broader cortical network where delta waves are observed and contribute to these functions."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Higher theta (4-8Hz) activity in the rostral ACC (including BA24) is associated with better treatment response in major depression. This suggests a role in emotional and cognitive processing related to mood regulation and therapeutic outcomes."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Alpha power in the anterior cingulate cortex (ACC), which includes BA24, has been linked to behavioral inhibition and may be altered in depression. Increased overall frontal and parietal alpha power and left midfrontal hypoactivity have been observed in depressed males."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Beta (13-30Hz) oscillations in the ACC (including BA24) predict associated reward and choice bias, and track reward receipt. Reduced magnitude of bias in depressed patients correlates with reduced beta-specific effects. This suggests ACC beta oscillations orchestrate the learning of reward information to guide adaptive choice and may serve as a biomarker for anhedonia."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "High gamma (60-140 Hz) power increases in the ACC (including BA24) have been observed following negative feedback (errors), suggesting a role in error processing and subsequent adjustments in cognitive control. Gamma activity in the ACC is also associated with higher-order cognitive functions and emotional regulation."
+    }
+  },
+  "connections": [
+    "Anterior cingulate",
+    "Posterior cingulate",
+    "Hippocampus",
+    "Prefrontal cortex"
+  ],
+  "connectivity_pattern": "BA24 acts as a central hub, integrating cognitive-behavioral, emotional, and autonomic functions. It receives inputs from the orbitofrontal cortex and amygdala. It shows functional connectivity with the superior frontal gyrus (including BA8, BA10, BA32), temporal and parietal areas (e.g., subdivisions of BA7), and visual association areas (BA19). BA24 co-activates with the right postcentral gyrus (BA40) and supplementary motor area (SMA) during perceptual tasks. The subgenual ACC (sgACC), which includes parts of BA24/25, exhibits modulated connectivity with regions like the superior frontal gyrus, particularly in conditions such as depression.",
+  "clinical_significance": "BA24, particularly the subgenual ACC (sgACC), is implicated in mood disorders, influencing emotional behavior and being associated with clinical depression and bipolar disorder. Changes in BA24 activity correlate with ketamine's antidepressant effects. Reduced beta-specific effects in BA24 are observed in depressed patients, potentially serving as a biomarker for anhedonia. Abnormalities in BA24 are associated with Autism Spectrum Disorder. It is a region of interest for pathology in Lewy Body Dementia (LBD) and Parkinson's Disease Dementia (PDD), and changes in cell densities have been observed in alcohol dependence. The ACC (including BA24) is a key cortical center for integrating pain with emotional and situational cues. Increased activity in BA24 has been linked to emotional regulation and stress management.",
+  "vertices": 19437,
+  "hemisphere": "Left"
+}

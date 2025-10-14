@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_32",
+  "name": "Insula/Orbitofrontal Cortex (Area 13a)",
+  "ba_label": "13a",
+  "description": "Insula/Orbitofrontal cortex - emotion and interoception",
+  "location": "Insula/Orbitofrontal region (Right hemisphere)",
+  "function": "Involved in emotional and interoceptive processing",
+  "connections": [
+    "Orbitofrontal cortex",
+    "Amygdala",
+    "Ventral striatum",
+    "Anterior cingulate"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 13008,
+  "hemisphere": "Right"
+}

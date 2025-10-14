@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_35",
+  "name": "Insula/Orbitofrontal Cortex (Area 13m)",
+  "ba_label": "13m",
+  "description": "Insula/Orbitofrontal cortex - emotion and taste",
+  "location": "Insula/Orbitofrontal region (Right hemisphere)",
+  "function": "Involved in emotion processing, especially unpleasant emotions and taste",
+  "connections": [
+    "Orbitofrontal cortex",
+    "Amygdala",
+    "Ventral striatum",
+    "Anterior cingulate"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 2892,
+  "hemisphere": "Right"
+}

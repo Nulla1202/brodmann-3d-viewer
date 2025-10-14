@@ -1,0 +1,15 @@
+{
+  "id": "Brodmannniigz_1",
+  "name": "Medial Wall",
+  "ba_label": "MEDIAL.WALL",
+  "description": "Medial wall - structural boundary between hemispheres",
+  "location": "Medial surface (Right hemisphere)",
+  "function": "Midline surface where left and right cerebral hemispheres meet. Not a functional area but a structural boundary of the brain",
+  "connections": [
+    "Thalamus",
+    "Adjacent cortical areas"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 3554,
+  "hemisphere": "Right"
+}

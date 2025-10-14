@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_7",
+  "name": "Brodmann Area 4a (Primary Motor Cortex, anterior)",
+  "ba_label": "BA4a",
+  "description": "Primary motor cortex (anterior) - trunk and proximal limb movements",
+  "location": "Precentral gyrus (Right hemisphere)",
+  "function": "Commands voluntary movements, especially of trunk and proximal limbs",
+  "connections": [
+    "BA4",
+    "BA6",
+    "Basal ganglia",
+    "Cerebellum",
+    "Spinal cord"
+  ],
+  "clinical_significance": "Lesions affect trunk and proximal limb control",
+  "vertices": 13710,
+  "hemisphere": "Right"
+}

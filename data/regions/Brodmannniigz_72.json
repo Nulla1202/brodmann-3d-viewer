@@ -1,0 +1,45 @@
+{
+  "id": "Brodmannniigz_72",
+  "name": "Brodmann Area 41 (Primary Auditory Cortex)",
+  "ba_label": "BA41",
+  "description": "Brodmann Area 41 (Primary Auditory Cortex) - Part of the primary auditory cortex, serving as the first cortical destination for auditory information from the thalamus. Neurons are tuned to pure tones and pitch. Exhibits a tonotopic organization,",
+  "location": "The primary auditory cortex (Brodmann area 41) is located in the superior portion of the temporal lobe, specifically in the part of the temporal gyrus which forms the inferior wall of the posterior ramus of the lateral sulcus. It is situated deep in the Sylvian fissure on the temporal transverse gyrus (Heschl's gyrus) and is surrounded caudolaterally by the secondary auditory area 42, rostrally and laterally by areas 22 and 42, and medially by area 52. Area 41 has the typical koniocortical structure of primary sensory areas, characterized by a well-developed layer IV with densely packed small neurons and a high cell density invading the supragranular layer III.",
+  "function": "Part of the primary auditory cortex, serving as the first cortical destination for auditory information from the thalamus. Neurons are tuned to pure tones and pitch. Exhibits a tonotopic organization, with responses to low-frequency stimuli originating more laterally and high-frequency stimuli originating more medially. Neural activity strongly correlates with the objective physical properties of sound. Involved in early stages of phonological processing (phoneme recognition).",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Attention is associated with the entrainment of delta rhythms (1-4 Hz) in the primary auditory cortex. Delta phase of EEG can track the dynamics of a moving auditory stimulus. Dominant delta frequency neuronal activity in all cortical layers of the primary auditory cortex is largely coherent with external stimuli."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Increased theta wave activity has been observed in the superior temporal gyrus (including BA41) in patients with Alzheimer's disease. Theta wave activation has also been found in the superior temporal gyrus (BA 41-22) in response to social exclusion stimuli."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Alpha power of EEG can track the dynamics of a moving auditory stimulus. Auditory alpha rhythms track the temporal structure of acoustic signals, aiding in speech comprehension and rhythm processing. A sound-sensitive source of alpha oscillations exists in the human auditory cortex, associated with functions like sensory prediction and inhibition of regions handling irrelevant information."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Experimentally, beta frequency oscillations are generated following periods of synchronous gamma frequency activity. They represent a dynamic method of generating and recalling stimulus-specific assemblies of neurons. Long-range (multimodal) sensory coding is performed at beta frequencies."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Transient bursts of gamma oscillations can be detected in response to sensory stimulation. These can be stimulus-evoked (tightly time and phase-locked) or stimulus-induced (variable latency). Short-latency gamma-band oscillations have been found in the auditory potential within 100 ms from stimulus onset. Evoked gamma may reflect synchronously active neural assemblies or signal precise temporal relationships of incoming stimuli. Induced gamma may reflect object representation or activation of associative memories."
+    }
+  },
+  "connections": [
+    "BA41",
+    "BA42",
+    "BA22",
+    "Medial geniculate nucleus"
+  ],
+  "connectivity_pattern": "BA41 has strong connections with the secondary auditory areas, specifically Brodmann Area 42 and Brodmann Area 22. These connections are often bidirectional. Functional connectivity can extend to other brain regions, including motor areas, and potentially Broca's area and higher-order extrastriate cortex (V3).",
+  "clinical_significance": "In Alzheimer's disease, the primary auditory cortex (BA41) appears to be relatively preserved, showing minimal pathological changes compared to auditory association areas like BA22. Individuals with congenital deafness lack auditory stimulation to the primary auditory cortex, leading to significant implications for auditory processing development. Patients with schizophrenia often exhibit lower performance on tasks dependent on primary auditory cortex function, suggesting its involvement in the pathology of the disorder. Dysfunction in BA41 can contribute to various auditory processing disorders, affecting the perception and interpretation of sound. The primary auditory cortex demonstrates significant neuroplasticity, meaning its structure and function can adapt in response to experience, training, or injury, which is crucial for rehabilitation efforts in auditory impairments.",
+  "vertices": 14499,
+  "hemisphere": "Left"
+}

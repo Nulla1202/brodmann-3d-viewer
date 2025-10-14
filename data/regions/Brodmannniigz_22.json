@@ -1,0 +1,15 @@
+{
+  "id": "Brodmannniigz_22",
+  "name": "Parietal Operculum 3",
+  "ba_label": "OP3",
+  "description": "Parietal operculum 3 - tactile discrimination",
+  "location": "Parietal operculum (Right hemisphere)",
+  "function": "Part of secondary somatosensory cortex, involved in tactile discrimination and texture recognition",
+  "connections": [
+    "Thalamus",
+    "Adjacent cortical areas"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 1578,
+  "hemisphere": "Right"
+}

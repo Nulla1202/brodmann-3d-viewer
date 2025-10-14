@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_37",
+  "name": "Anterior Cingulate Cortex (Area 32pl)",
+  "ba_label": "32pl",
+  "description": "Anterior cingulate cortex - cognitive conflict resolution",
+  "location": "Anterior cingulate (Right hemisphere)",
+  "function": "Involved in cognitive conflict resolution and decision-making",
+  "connections": [
+    "Anterior cingulate",
+    "Posterior cingulate",
+    "Hippocampus",
+    "Prefrontal cortex"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 11658,
+  "hemisphere": "Right"
+}

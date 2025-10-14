@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_78",
+  "name": "Brodmann Area 37 (Fusiform Gyrus)",
+  "ba_label": "BA37",
+  "description": "Brodmann Area 37 (Fusiform Gyrus) - BA37 plays a crucial role in facial recognition, complex visual processing, object naming, and recognition memory. It is involved in phonological retrieval, semantic processing, and is a common node f",
+  "location": "Brodmann Area 37 (BA37), also known as occipitotemporal area 37 (H), is a subdivision of the cytoarchitecturally defined temporal region of the cerebral cortex. It is located primarily in the caudal portions of the fusiform gyrus and inferior temporal gyrus on the mediobasal and lateral surfaces at the caudal extreme of the temporal lobe. It is bounded caudally by Brodmann area 19, rostrally by inferior temporal area 20 and middle temporal area 21, and dorsally by angular area 39.",
+  "function": "BA37 plays a crucial role in facial recognition, complex visual processing, object naming, and recognition memory. It is involved in phonological retrieval, semantic processing, and is a common node for visual recognition and semantic language functions. It also contributes to deductive reasoning and visuomotor orientation.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Delta wave activity in BA37 has been observed to increase during non-dreaming sleep. Studies also indicate that 2-4 Hz delta power can be found in BA37, and changes in delta frequency characteristics are noted in dementia patients."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Theta wave activity in BA37 is generally associated with memory processing and navigation. Studies suggest that theta activity can be observed in BA37, and changes in theta coherence in frontal regions are linked to executive functions. Theta waves become more widespread in the evening and are associated with slower reaction times."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "BA37 (fusiform gyrus) shows significant changes in alpha-rhythm intensity, particularly in the T6 electrode area. Alpha activity is also associated with visual processing and can be increased by motion-sensitive visual processes."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Beta waves in BA37 are generally associated with active mental states and cognitive processing. While specific details for BA37 are limited, beta activity is often observed during focused attention and problem-solving, which aligns with BA37's role in complex visual and semantic processing."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Gamma waves in BA37 are associated with higher-order cognitive functions, such as face processing and object recognition. Intracranial EEG studies in the fusiform gyrus (part of BA37) show face-selective spectral changes, indicating gamma band activity during face perception. Gamma activity is generally linked to strong mental activities like studying and problem-solving."
+    }
+  },
+  "connections": [
+    "BA20",
+    "BA21",
+    "BA37",
+    "Hippocampus",
+    "Parahippocampal cortex"
+  ],
+  "connectivity_pattern": "BA37 is a common node of two distinct networks: visual recognition (perception) and semantic language functions. It shows significant connections with the left visual association area (BA19) and other parts of the temporal lobe (BA20, BA21, BA22, BA39). Its connectivity with the parahippocampal gyrus suggests involvement in memory processing. It is also part of a complex brain network for deductive reasoning, including BA21/22/24/32/37/45/46/47.",
+  "clinical_significance": "BA37 is characterized by significant hypoperfusion and neurofibrillary tangle (NFT) pathology in clinical disorders like Alzheimer's disease. Lesions in the fusiform gyrus (part of BA37) can result in visual agnosia for objects, prosopagnosia (inability to recognize faces), and pure alexia (inability to read). It is also implicated in neurological phenomena such as synesthesia, dyslexia, and memory loss in aging and dementia. Restoring blood flow to BA37 is critical for helping patients regain naming abilities.",
+  "vertices": 5162,
+  "hemisphere": "Left"
+}

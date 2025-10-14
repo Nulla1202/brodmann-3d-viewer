@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_12",
+  "name": "Middle Temporal Visual Complex (MT/V5)",
+  "ba_label": "hOc5_MT",
+  "description": "Middle temporal visual complex - motion detection",
+  "location": "Middle temporal area (Right hemisphere)",
+  "function": "Important region specialized in detection and processing of visual motion",
+  "connections": [
+    "BA17 (V1)",
+    "BA18 (V2)",
+    "BA19",
+    "Visual thalamus",
+    "Superior colliculus"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 3684,
+  "hemisphere": "Right"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Brodmannniigz_75",
+  "name": "Brodmann Area 42",
+  "ba_label": "BA42",
+  "description": "Brodmann Area 42 - BA42 is part of the primary auditory cortex. It serves as the first cortical destination for auditory information originating from the thalamus. Neural activity within this region is strongly correlat",
+  "location": "Brodmann area 42, also known as the posterior transverse temporal area 42 (H), is a subdivision of the temporal lobe. It is bounded medially by the anterior transverse temporal area 41 (H) and laterally by the superior temporal area 22.",
+  "function": "BA42 is part of the primary auditory cortex. It serves as the first cortical destination for auditory information originating from the thalamus. Neural activity within this region is strongly correlated with the objective physical properties of sound.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Typically associated with deep, dreamless sleep in adults. In the context of auditory processing, increased delta activity might indicate a state of reduced auditory attention or deep relaxation. However, delta oscillations can also play a role in sensory processing, including auditory, particularly in coordinating neural activity across larger brain networks."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Often linked to states of drowsiness, light sleep, meditation, and memory encoding/retrieval. In the auditory cortex, theta activity might be involved in processing novel auditory stimuli, working memory for sounds, or during tasks requiring sustained auditory attention."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Typically observed during relaxed wakefulness, especially with closed eyes, and is associated with inhibition of irrelevant sensory information. In the auditory cortex, alpha waves might reflect a state of auditory idling or active suppression of distracting auditory input, allowing for focused attention on specific sounds."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Associated with active thinking, problem-solving, concentration, and alert wakefulness. In BA42, beta activity could be prominent during active auditory processing, such as analyzing complex sound patterns, speech comprehension, or responding to auditory cues."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Linked to higher-level cognitive functions, sensory binding, perception, and consciousness. In the primary auditory cortex, gamma oscillations are crucial for precise temporal coding of auditory information, integrating different features of a sound (e.g., pitch, timbre, location), and forming coherent auditory percepts. High gamma activity is often observed during active listening and auditory discrimination tasks."
+    }
+  },
+  "connections": [
+    "BA41",
+    "BA42",
+    "BA22",
+    "Medial geniculate nucleus"
+  ],
+  "connectivity_pattern": "As part of the primary auditory cortex, BA42 exhibits significant connectivity with other auditory and related brain regions. Effective connectivity has been observed between the primary auditory cortex (which includes BA42) and the lateral planum polare and anterior Superior Temporal Gyrus (STG), as well as the lateral planum temporale and posterior STG. The primary auditory cortex receives input from the ventral division of the medial geniculate nucleus of the thalamus.",
+  "clinical_significance": "Dysfunction or damage to Brodmann Area 42, as part of the primary auditory cortex, can lead to various auditory processing deficits and has been implicated in several clinical conditions, including Auditory Processing Disorder (APD), Cortical Deafness, Bipolar Disorder, Autistic Spectrum Disorder (ASD), and Temporal Order Processing Deficits.",
+  "vertices": 3656,
+  "hemisphere": "Left"
+}

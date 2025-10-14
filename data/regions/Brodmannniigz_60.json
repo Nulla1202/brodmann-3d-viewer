@@ -1,0 +1,45 @@
+{
+  "id": "Brodmannniigz_60",
+  "name": "Brodmann Area 5",
+  "ba_label": "BA5",
+  "description": "Brodmann Area 5 - BA5 is involved in somatosensory processing, movement, and association. Its functions include stereopsis, line bisection judgments, processing chaotic patterns, using spatial imagery in deductive reas",
+  "location": "Brodmann Area 5 (BA5) is a subdivision of the parietal cortex in the human brain. It is part of the superior parietal lobule and the postcentral gyrus, situated immediately posterior to the primary somatosensory cortex. It is cytoarchitecturally bounded by Brodmann areas 2, 7, 4, and 31.",
+  "function": "BA5 is involved in somatosensory processing, movement, and association. Its functions include stereopsis, line bisection judgments, processing chaotic patterns, using spatial imagery in deductive reasoning, motor execution, bimanual manipulation, working memory, language processing, visuomotor attention, pain perception, tactile localization, and saccadic eye movement.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "In the parietal area, higher Delta power was observed in patients with disorders of consciousness (VS/UWS)."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "In the parietal area, lower Theta power was observed in patients with disorders of consciousness (VS/UWS)."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "In the parietal area, lower Alpha power was observed in patients with disorders of consciousness (VS/UWS)."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "In the parietal area, lower Beta power was observed in patients with disorders of consciousness (VS/UWS)."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "High-frequency Gamma activity in the parietal area is considered relevant to consciousness, with parietal gamma activity potentially exceeding alpha in the deterioration of consciousness."
+    }
+  },
+  "connections": [
+    "BA5",
+    "BA7",
+    "Prefrontal cortex",
+    "Premotor cortex"
+  ],
+  "connectivity_pattern": "Area 5M (medial portion of BA5) exhibits broadly distributed projections from anterior parietal areas, primary motor cortex (M1), premotor cortex (PM), supplementary motor area (SMA), cortex on the medial wall, and posterior parietal areas 5L and 7b. It receives somatosensory inputs (primarily from area 2), posterior parietal, and motor cortex inputs, and provides proprioceptive information to area 5M.",
+  "clinical_significance": "Lesions in the left superior parietal lobe (including BA5) can lead to ideomotor apraxia (loss of ability to produce purposeful, skilled movements) and astereognosis (loss of ability to recognize objects by feeling or handling them).",
+  "vertices": 4712,
+  "hemisphere": "Left"
+}

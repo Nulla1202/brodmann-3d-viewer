@@ -1,0 +1,15 @@
+{
+  "id": "Brodmannniigz_17",
+  "name": "Lateral Occipital Area 2",
+  "ba_label": "LO2",
+  "description": "Lateral occipital area 2 - object shape recognition",
+  "location": "Lateral occipital cortex (Right hemisphere)",
+  "function": "Part of visual association cortex playing important role in object shape recognition",
+  "connections": [
+    "Thalamus",
+    "Adjacent cortical areas"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 12766,
+  "hemisphere": "Right"
+}

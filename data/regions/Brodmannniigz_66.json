@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_66",
+  "name": "Brodmann Area 45",
+  "ba_label": "BA45",
+  "description": "Brodmann Area 45 - BA45, particularly in the left hemisphere, along with BA44, constitutes Broca's area, which is active in semantic tasks. These tasks include semantic decision tasks (determining whether a word represe",
+  "location": "Brodmann area 45 (BA45) is part of the frontal cortex in the human brain. It is situated on the lateral surface, inferior to BA9 and adjacent to BA46. This area occupies the triangular part of the inferior frontal gyrus and, surrounding the anterior horizontal limb of the lateral sulcus, a portion of the orbital part of the inferior frontal gyrus. Bounded caudally by the anterior ascending limb of the lateral sulcus, it borders on the insula in the depth of the lateral sulcus. In terms of cytoarchitecture, it is bounded caudally by the opercular part of inferior frontal gyrus (Brodmann area 44 (BA44)), rostrodorsally by the middle frontal area 46 (BA46), and ventrally by the orbital part of inferior frontal gyrus (Brodmann area 47 (BA47)).",
+  "function": "BA45, particularly in the left hemisphere, along with BA44, constitutes Broca's area, which is active in semantic tasks. These tasks include semantic decision tasks (determining whether a word represents an abstract or concrete entity) and generation tasks (generating a verb associated with a noun). While its precise role in semantic tasks is debated, some researchers suggest it subserves semantic retrieval or semantic working memory processes, guiding the recovery and evaluation of semantic information. Another view proposes that BA45 activation is needed only under controlled semantic retrieval when strong stimulus-stimulus associations are absent. Other researchers argue that BA45's role extends beyond semantics to all activities requiring the selection of task-relevant representations from among competing ones. Lesions of BA45 lead to expressive aphasia in individuals with left hemispheric dominance.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Research indicates that delta-theta rhythms between the ventral prefrontal (including BA44/45) and lateral premotor areas show greater functional connectivity during action execution compared to action observation. Specifically, the event-related functional connectivity (ErLLC) of delta-theta (<6 Hz) rhythms between the lateral premotor (BA6) and ventral prefrontal (BA44/45) areas is enhanced during the execution of transitive actions."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Research indicates that delta-theta rhythms between the ventral prefrontal (including BA44/45) and lateral premotor areas show greater functional connectivity during action execution compared to action observation. Specifically, the event-related functional connectivity (ErLLC) of delta-theta (<6 Hz) rhythms between the lateral premotor (BA6) and ventral prefrontal (BA44/45) areas is enhanced during the execution of transitive actions."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Alpha oscillations are observed in the inferior frontal cortex, including BA45. Increased alpha power in this region has been correlated with decreased MRI signals. A frontal-temporal alpha rhythm with a peak frequency of 8.3 Hz is generated in the inferior frontal/superior temporal cortex. Alpha oscillations are thought to play a role in orchestrating processing by inhibiting task-irrelevant regions and facilitating the activation of task-relevant regions."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Beta-band oscillations in the right inferior frontal gyrus (rIFG), which includes BA45, are implicated in motor inhibitory control. Additionally, lower beta power in the inferior frontal gyrus has been associated with improved subsequent recall in long-term memory formation. Beta oscillations also play a role in attentional control."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "While specific details for BA45 are limited, gamma-band activity is generally associated with various cognitive processes across cortical areas. Research indicates that neural representations of individual stimuli in humans are revealed by gamma-band electrocorticographic activity. More broadly, gamma oscillations are involved in higher-order cognitive functions, including attention, perception, and memory, and are observed in prefrontal cortical areas during movement execution and observation."
+    }
+  },
+  "connections": [
+    "BA22",
+    "BA44",
+    "BA45",
+    "BA47",
+    "Arcuate fasciculus"
+  ],
+  "connectivity_pattern": "Brodmann Area 45 (BA45) exhibits a high degree of connectivity with other subregions of the inferior frontal gyrus (IFG), including BA44 and BA47. It is also strongly connected with lateral temporal cortex areas, such as the posterior temporal cortex. In the context of language processing, BA45 shows functional connections with the inferior temporal gyrus (ITG) during lexical decisions and visual word recognition. It is part of broader neural networks involved in language production, cognitive control, and working memory. The right inferior frontal gyrus (rIFG), which includes BA45, has functional connectivity with various brain regions and is implicated in attentional control and motor inhibitory control.",
+  "clinical_significance": "Lesions involving BA45, often in conjunction with BA44 (Broca's area), are classically associated with Broca's aphasia (expressive aphasia), characterized by difficulties in speech production. Specifically, lesions of BA45 can lead to expressive aphasia in individuals with left hemispheric dominance. Pathological changes in BA44 and BA45 have also been linked to selective impairment of verb processing in conditions like motor neuron disease-dementia-aphasia syndrome. Reduced gray matter volume in BA45 has been associated with severe psychotic symptoms in patients with schizophrenia. Furthermore, hypometabolism in the left prefrontal cortex, including BA45, has been observed in depressed patients with Alzheimer's disease. A virtual lesion of the anterior part of Broca's area (left BA45) has been shown to delay the processing of cues initiating sequences in motor tasks. Abnormalities in BA45 are also associated with Autism Spectrum Disorder.",
+  "vertices": 6688,
+  "hemisphere": "Left"
+}

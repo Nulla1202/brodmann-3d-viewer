@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_28",
+  "name": "Visual Area V7",
+  "ba_label": "V7",
+  "description": "Visual area V7 - egocentric space and reaching",
+  "location": "Parietal lobe (Right hemisphere)",
+  "function": "Located in parietal lobe, involved in egocentric spatial representation and visually guided reaching movements",
+  "connections": [
+    "BA17 (V1)",
+    "BA18 (V2)",
+    "BA19",
+    "Visual thalamus",
+    "Superior colliculus"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 902,
+  "hemisphere": "Right"
+}

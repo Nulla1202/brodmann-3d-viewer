@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_79",
+  "name": "Brodmann Area 20 (Inferior Temporal Gyrus)",
+  "ba_label": "BA20",
+  "description": "Brodmann Area 20 (Inferior Temporal Gyrus) - BA20 is believed to play a significant role in high-level visual processing, including object recognition, and recognition memory. It is involved in visual working memory maintenance and interactions ",
+  "location": "Brodmann area 20 (BA20) is part of the temporal cortex in the human brain, specifically the ventral temporal cortex. It is also known as inferior temporal area 20 and corresponds approximately to the inferior temporal gyrus. Cytoarchitecturally, it is bounded medially by the ectorhinal area 36 (H), laterally by the middle temporal area 21, rostrally by the temporopolar area 38 (H), and caudally by the occipitotemporal area 37 (H) (Brodmann-1909).",
+  "function": "BA20 is believed to play a significant role in high-level visual processing, including object recognition, and recognition memory. It is involved in visual working memory maintenance and interactions with the medial temporal lobe and prefrontal cortex during these processes.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "While the provided academic paper mentions delta activity in the temporal lobe generally, it does not specify characteristics for BA20. However, other research indicates that delta waves (0.5-4 Hz) are prominent during deep, dreamless sleep and are associated with the brain's 'rest and repair' mode."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "EEG phase synchronization in the theta band (3-8 Hz) between the inferior temporal cortex (including BA20) and other regions is observed, increasing with memory load. Theta waves (4-8 Hz) are typically associated with states of deep relaxation, meditation, and memory encoding."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "EEG phase synchronization in the alpha band (9-12 Hz) between the inferior temporal cortex (including BA20) and other regions is observed, increasing with memory load. Alpha waves (8-13 Hz) are generally associated with relaxed wakefulness."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Beta1 (13-18 Hz) and Beta2 (19-25 Hz) bands are analyzed in the inferior temporal cortex (including BA20). Synchronization in these bands between the IT cortex and other regions is observed, increasing with memory load. Beta waves (13-30 Hz) are typically associated with active thinking, alertness, and problem-solving."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Gamma1 (26-50 Hz), Gamma2 (51-75 Hz), and Gamma3 (76-100 Hz) bands are analyzed in the inferior temporal cortex (including BA20). The high gamma range (51-75 Hz) shows increased top-down coupling from the anterior parahippocampal gyrus to the IT cortex with increasing memory load. Gamma oscillations (30-100 Hz+) are generally associated with strong mental activities, active information processing, and memory formation."
+    }
+  },
+  "connections": [
+    "BA20",
+    "BA21",
+    "BA37",
+    "Hippocampus",
+    "Parahippocampal cortex"
+  ],
+  "connectivity_pattern": "BA20 is bounded medially by the ectorhinal area 36 (H), laterally by the middle temporal area 21, rostrally by the temporopolar area 38 (H), and caudally by the occipitotemporal area 37 (H). It shows phase synchronization with the anterior parahippocampal gyrus and other medial temporal lobe (MTL) regions, particularly during visual working memory tasks. Coupling can be bidirectional, with increased top-down coupling from the anterior parahippocampal gyrus to the IT cortex in the high gamma range with increasing cognitive load.",
+  "clinical_significance": "Synaptic loss in the inferior temporal gyrus (ITG), which includes BA20, is observed in mild cognitive impairment and Alzheimer's Disease (AD). Hypoperfusion in BA20 has been linked to eating disorders in AD patients, and BA20 is identified as a vulnerable neuronal subpopulation to tau pathology in AD. Abnormalities in gray matter volume in the ITG (including BA20) have been observed in patients with first-episode schizophrenia. BA20 is also implicated in the histopathological networks associated with Frontotemporal Dementia (FTD).",
+  "vertices": 13391,
+  "hemisphere": "Left"
+}

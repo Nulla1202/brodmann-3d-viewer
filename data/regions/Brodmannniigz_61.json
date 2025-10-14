@@ -1,0 +1,45 @@
+{
+  "id": "Brodmannniigz_61",
+  "name": "Brodmann Area 7",
+  "ba_label": "BA7",
+  "description": "Brodmann Area 7 - Brodmann Area 7 (BA7) is a crucial part of the somatosensory association cortex. Its primary functions include: 1. Spatial Awareness and Object Localization: It is involved in locating objects in spac",
+  "location": "Brodmann Area 7 (BA7) is located in the superior parietal lobule (SPL) and the precuneus. It occupies most of the lateral superior parietal lobule and the medial precuneus. The precuneus is the portion of the superior parietal lobule on the medial surface of each brain hemisphere, located in front of the cuneus. BA7 is also considered part of the posterior parietal cortex.",
+  "function": "Brodmann Area 7 (BA7) is a crucial part of the somatosensory association cortex. Its primary functions include: 1. Spatial Awareness and Object Localization: It is involved in locating objects in space and integrating visual and proprioceptive information to determine the relative position of objects. 2. Visuomotor Integration: BA7 plays a significant role in integrating multiple visuomotor programs for complex movements such as reaching, grasping, and bimanual coordination. 3. Motor Planning and Sequencing: It is also involved in the planning and sequencing of motor movements. 4. Visuo-spatial Attention: Right BA7 has been reported to activate in a specific manner in visuo-spatial attention tasks.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Delta waves (0.5-4Hz) are generally associated with deep sleep and certain brain dysfunctions when present during wakefulness. However, some research indicates that delta activity in the parietal lobe, including the superior parietal lobule (where BA7 is located), can be increased in conditions like hyperacusis. Additionally, delta power in the precuneus (part of BA7) during NREM sleep may reflect a decrease in waking-dependent processes."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Theta waves (4-8Hz) in the parietal cortex, including the superior parietal lobule (BA7) and the precuneus, are associated with several cognitive functions. These include working memory capacity, visuospatial attention, and conscious awareness. The precuneus, a part of BA7, has been shown to play a causal role in network-wide theta and gamma oscillatory activity during complex memory retrieval. Some studies also suggest that theta activity in the superior parietal lobe is involved in sensorimotor expertise."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Alpha waves (8-13Hz) are observed during relaxed, non-aroused states and are particularly prominent in the occipital and parietal regions. In the context of BA7 (superior parietal lobule and precuneus), parietal alpha oscillations are involved in attentional control, with stronger activity noted during easier tasks. Alpha-band phase synchrony in the upper alpha range positively correlates with activity in prefrontal and parietal regions. A decrease in alpha activity in the precuneus may indicate a release of inhibition linked to attentional demands. The superior parietal lobule also shows unique activation patterns in yoga practitioners."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Beta waves (13-30Hz) are observed in the parietal cortex, including the superior parietal lobule (BA7) and the precuneus, and are associated with active states such as attention, concentration, and motor performance. Beta traveling waves have been observed in the monkey parietal cortex, conveying information about rewards. Parietal beta oscillations are linked to visual crowding and are functionally relevant for cognitive performance. Decreases in beta activity have been noted in the superior parietal lobule. The precuneus, a component of BA7, is involved in various cognitive processes, and its activity can be influenced by beta oscillations."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Gamma waves (30-100Hz+) in the parietal cortex, including the superior parietal lobule (BA7) and the precuneus, are associated with high-level cognitive functions. Parietal gamma oscillations are modulated by cognitive reappraisal and are involved in the manipulation of visual and spatial information in working memory (especially high gamma, 80-100 Hz). The precuneus plays a causal role in network-wide theta and gamma oscillatory activity during complex memory retrieval. Gamma waves in the precuneus are also linked to self-awareness and visual imagery, with spikes observed during lucid dreaming. Dual transcranial electromagnetic stimulation can increase gamma oscillations and precuneus-hippocampus functional connectivity."
+    }
+  },
+  "connections": [
+    "BA5",
+    "BA7",
+    "Prefrontal cortex",
+    "Premotor cortex"
+  ],
+  "connectivity_pattern": "Brodmann Area 7 (BA7), encompassing the superior parietal lobule (SPL) and precuneus, exhibits extensive functional connectivity with other brain regions. It shows strong connections to somatosensory areas and is involved in integrating visual and somatosensory information. Functional connectivity studies indicate that BA7 can have increased connectivity with auditory cortices. The precuneus, a key component of BA7, connects highly with the inferior parietal lobule (IPL), the occipital cortex, other parts of the superior parietal lobule, and the dorsal premotor cortex. These connections facilitate its role in high-order cognitive functions by integrating multi-modal information.",
+  "clinical_significance": "Brodmann Area 7 (BA7), particularly its precuneus component, is implicated in several neurological and psychiatric conditions: 1. Alzheimer's Disease (AD): The precuneus is an early site for amyloid-beta (Aβ) accumulation, and task-related activity in this region is altered in AD patients. Decreases in synaptic markers have been observed in cortical areas, including BA7, in individuals with AD pathology. Research also explores the role of 5-HT7 receptors in BA7 in AD. 2. Huntington's Disease: The precuneus (BA7) exhibits Huntingtin inclusions, which are characteristic pathological markers of this neurodegenerative disorder. 3. Hyperacusis: Increased parietal circuit-breaker activity in the delta frequency band within the left superior parietal lobule (part of BA7) has been noted in individuals with hyperacusis. 4. Functional Neurological Disorders (FND): Alterations in self-processing brain networks, potentially involving BA7, are associated with adverse childhood experiences (ACEs) in children diagnosed with FND.",
+  "vertices": 1570,
+  "hemisphere": "Left"
+}

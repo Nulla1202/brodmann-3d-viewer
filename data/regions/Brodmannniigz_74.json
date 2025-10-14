@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_74",
+  "name": "Brodmann Area 22 (Wernicke's Area)",
+  "ba_label": "BA22",
+  "description": "Brodmann Area 22 (Wernicke's Area) - In the left hemisphere, BA22 is crucial for language comprehension and production, supporting lexical semantic processing, generation and understanding of individual words, producing sentences, semant",
+  "location": "Brodmann Area 22 is cytoarchitecturally located in the posterior superior temporal gyrus of the brain. In the left cerebral hemisphere, it is one portion of Wernicke's area. It is bounded rostrally by Brodmann area 38, medially by Brodmann area 42, ventrocaudally by Brodmann area 21, and dorsocaudally by Brodmann area 40 and Brodmann area 39. These cortical regions surround the lower left posterior Sylvian fissure.",
+  "function": "In the left hemisphere, BA22 is crucial for language comprehension and production, supporting lexical semantic processing, generation and understanding of individual words, producing sentences, semantic processing, and processing of complex sounds. It forms a significant part of Wernicke's area. In the right hemisphere, BA22 helps to discriminate pitch and sound intensity, which are necessary for perceiving melody and prosody.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Delta waves (0.5-4Hz) are generally associated with deep sleep and unconscious processes. While not specifically detailed for BA22, delta activity can increase in frontal leads during tasks requiring concentration, such as semantic tasks."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "No specific data available"
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "BA22 shows a decrease in Alpha-2 activity after exercise. Alpha waves (8-13Hz) are generally associated with relaxed wakefulness and can be sound-sensitive in the superior temporal cortex."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "BA22 shows a decrease in Beta-1 activity after exercise. Beta waves (13-30Hz) are generally associated with active thinking, alertness, and concentration."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "BA22 shows a decrease in Gamma activity after exercise. Gamma waves (30-100Hz+) are generally associated with higher-level cognitive functions, perception, and consciousness."
+    }
+  },
+  "connections": [
+    "BA22",
+    "BA44",
+    "BA45",
+    "BA47",
+    "Arcuate fasciculus"
+  ],
+  "connectivity_pattern": "BA22 is part of Wernicke's area, which also includes Brodmann area 40 (supramarginal gyrus). It is connected with nonverbal sound processing in the right hemisphere. Higher preoperative coupling between the Hippocampus and BA22 has been observed.",
+  "clinical_significance": "Lesions to the left BA22, specifically within Wernicke's area, result in Wernicke's aphasia (receptive aphasia), characterized by difficulty comprehending language, despite normal intonation and rate of speech. Patients may struggle with word selection and comprehension, leading to sentences that are difficult for others to understand. Higher preoperative coupling between the Hippocampus and BA22 has been associated with a postoperative reduction in verbal learning. Accumulation of Advanced Glycation End products (AGEs) in BA22 is observed in Alzheimer's Disease, progressing through early, middle, and later stages.",
+  "vertices": 2548,
+  "hemisphere": "Left"
+}

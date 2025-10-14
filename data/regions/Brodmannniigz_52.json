@@ -1,0 +1,15 @@
+{
+  "id": "Brodmannniigz_52",
+  "name": "Visual Area V6",
+  "ba_label": "V6_PHG06",
+  "description": "Visual area V6 - egocentric spatial perception",
+  "location": "Near parahippocampal gyrus (Left hemisphere)",
+  "function": "Visual region involved in egocentric spatial perception and processing peripheral visual field motion",
+  "connections": [
+    "Thalamus",
+    "Adjacent cortical areas"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 4986,
+  "hemisphere": "Left"
+}

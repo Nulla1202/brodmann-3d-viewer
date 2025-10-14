@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_4",
+  "name": "Brodmann Area 3b",
+  "ba_label": "BA3b",
+  "description": "Primary somatosensory cortex - precise tactile processing",
+  "location": "Postcentral gyrus (Right hemisphere)",
+  "function": "Region that precisely processes tactile information from skin",
+  "connections": [
+    "BA1",
+    "BA2",
+    "BA3",
+    "BA5",
+    "Thalamus"
+  ],
+  "clinical_significance": "Lesions cause severe tactile deficits",
+  "vertices": 5750,
+  "hemisphere": "Right"
+}

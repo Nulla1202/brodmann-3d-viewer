@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_59",
+  "name": "Brodmann Area 1",
+  "ba_label": "BA1",
+  "description": "Brodmann Area 1 - 身体からの感覚情報（触覚、温度覚、痛覚、振動覚）を処理する。固有受容（身体部位の位置と運動の認識）に不可欠。触覚の局在化、二点識別などの感覚知覚、巧緻な顔面運動（口笛など）、微細運動制御、運動学習に関与する。",
+  "location": "一次体性感覚野の一部であり、頭頂葉の後中心回に位置する。後中心回では、BA3、BA1、BA2の順に吻側から尾側へ配置されている。一次運動野のすぐ隣、中心溝の反対側に位置し、感覚運動皮質の一部を形成する。",
+  "function": "身体からの感覚情報（触覚、温度覚、痛覚、振動覚）を処理する。固有受容（身体部位の位置と運動の認識）に不可欠。触覚の局在化、二点識別などの感覚知覚、巧緻な顔面運動（口笛など）、微細運動制御、運動学習に関与する。",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "BA1に特化したデルタ波の具体的な特性に関する詳細な情報は見つからなかった。一般的にデルタ波は深い睡眠時や特定の病態で優勢となる。"
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "BA1に特化したシータ波の具体的な特性に関する詳細な情報は見つからなかった。一般的にシータ波は記憶、学習、感情処理に関連する。"
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "一次体性感覚野（BA1を含む）では、アルファ波は安静時に強く現れ、感覚刺激や運動準備によって脱同期する（活動が抑制される）。これは、当該領域が「アイドル状態」にあることを示唆する。"
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "一次体性感覚野（BA1を含む）では、ベータ波もアルファ波と同様に安静時に強く現れ、感覚刺激や運動準備によって脱同期する。特に、運動実行や観察中にBA1/2で活動が観察される。"
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "BA1に特化したガンマ波の具体的な特性に関する詳細な情報は見つからなかった。一般的にガンマ波は高次の認知機能や意識的な知覚に関連する。"
+    }
+  },
+  "connections": [
+    "BA1",
+    "BA2",
+    "BA3",
+    "BA5",
+    "Thalamus"
+  ],
+  "connectivity_pattern": "BA2およびBA3と密接に連携し、一次体性感覚野を構成する。視床から感覚信号を受け取る。一次運動野（BA4）と機能的に結合し、感覚運動皮質の一部として機能する。BA3bからBA2への情報伝達において重要な役割を果たす。",
+  "clinical_significance": "BA1に特化した病態における変化や臨床的意義に関する詳細な情報は見つからなかった。しかし、一次体性感覚野の損傷は、触覚、温度覚、痛覚、固有受容の障害など、さまざまな感覚障害を引き起こす可能性がある。BA1/2の活動は、行動の実行と観察中に活性化されることが示唆されている。",
+  "vertices": 4904,
+  "hemisphere": "Left"
+}

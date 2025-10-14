@@ -1,0 +1,18 @@
+{
+  "id": "Brodmannniigz_51",
+  "name": "Frontopolar Cortex (Area 10p, polar)",
+  "ba_label": "10p",
+  "description": "Frontopolar cortex (polar) - long-term goal management",
+  "location": "Frontal pole (Left hemisphere)",
+  "function": "Involved in long-term goal management and ability to switch between multiple tasks",
+  "connections": [
+    "BA8",
+    "BA9",
+    "BA46",
+    "Anterior cingulate",
+    "Basal ganglia"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 3426,
+  "hemisphere": "Left"
+}

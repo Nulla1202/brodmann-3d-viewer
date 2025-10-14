@@ -1,0 +1,45 @@
+{
+  "id": "Brodmannniigz_71",
+  "name": "Brodmann Area 47",
+  "ba_label": "BA47",
+  "description": "Brodmann Area 47 - BA47 is primarily involved in language processing and comprehension, particularly in semantics (identifying the meaning of words and sentences). It plays a crucial role in processing both spoken and s",
+  "location": "Brodmann Area 47 (BA47) is part of the frontal cortex in the human brain. It curves from the lateral surface of the frontal lobe into the ventral (orbital) frontal cortex. It is located inferior to BA10 and BA45, and lateral to BA11. This cytoarchitectonic region largely corresponds to the orbital part of the inferior frontal gyrus. On the orbital surface, it surrounds the caudal portion of the orbital sulcus and extends laterally into the orbital part of the inferior frontal gyrus. Cytoarchitectonically, it is bounded caudally by the triangular area 45, medially by the prefrontal area 11, and rostrally by the frontopolar area 10.",
+  "function": "BA47 is primarily involved in language processing and comprehension, particularly in semantics (identifying the meaning of words and sentences). It plays a crucial role in processing both spoken and sign language. Additionally, BA47 is active in processing musical structure, especially when expectations are violated (e.g., 'scrambled' music), suggesting a more general role in processing fine-structured stimuli that evolve over time. It is also related to empathy towards story contents of others.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Delta activity (0.5-4 Hz) in the frontal leads, including regions like BA47, can increase during mental tasks requiring concentration, such as mental calculation and semantic tasks. Increased delta slowing on scalp EEG is associated with intracranial hippocampal interictal epileptiform discharge."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Theta activity (4-8 Hz) in the frontal lobe, including BA47, is associated with cognitive functions. Increased frontal theta activity has been observed in conditions like anorexia nervosa. Theta-alpha oscillations (4-13 Hz) in the prefrontal cortex are correlated with increased hippocampal connectivity during recollection. Theta activity in the inferior frontal gyri (including BA47) has been observed to increase during spatial navigation tasks."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Prefrontal cortex (including BA47) generates alpha rhythms, which are modulated during action execution and observation. Increased alpha activity in the right ventral lateral prefrontal cortex (BA47) has been observed in professional dancers during creative thinking tasks."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Prefrontal cortex (including BA47) generates beta rhythms, which are modulated during action execution and observation. Beta power and beta envelope correlation are potential predictors of certain brain states."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Prefrontal cortex (including BA47) generates gamma rhythms, which are modulated during action execution and observation. Gamma power and theta-gamma coupling enhancement have been studied in the prefrontal cortex in relation to conditions like depression."
+    }
+  },
+  "connections": [
+    "Orbitofrontal cortex",
+    "Amygdala",
+    "Ventral striatum",
+    "Anterior cingulate"
+  ],
+  "connectivity_pattern": "BA47 shows functional connectivity with other Brodmann areas involved in language (e.g., BA44, BA45, BA46) and is considered part of a 'frontal language network'. It also connects with the extrastriate cortex (BA19) and hippocampus (BA54). BA47's activation is associated with processing fine-structured stimuli that evolve over time, including linguistic and musical structures. It is also involved in corticostriatal circuits.",
+  "clinical_significance": "Lesions to BA47 can result in difficulty processing words and understanding grammatical rules. Pathology in BA47, particularly of GABAergic interneurons, has been correlated with restricted repetitive behaviors in autism spectrum disorder (ASD). Decreased BA47 activation has been observed in conditions like bipolar I disorder. Abnormalities in BA47 may also be influenced by pathological severity in conditions like constant exotropia.",
+  "vertices": 9692,
+  "hemisphere": "Left"
+}

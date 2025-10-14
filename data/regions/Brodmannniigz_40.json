@@ -1,0 +1,17 @@
+{
+  "id": "Brodmannniigz_40",
+  "name": "Orbitofrontal Cortex (Area 47l, lateral)",
+  "ba_label": "47l",
+  "description": "Orbitofrontal cortex (lateral) - behavior adjustment",
+  "location": "Orbitofrontal region lateral (Left hemisphere)",
+  "function": "Plays role in adjusting behavior based on rewards and punishments",
+  "connections": [
+    "Orbitofrontal cortex",
+    "Amygdala",
+    "Ventral striatum",
+    "Anterior cingulate"
+  ],
+  "clinical_significance": "Damage to this region may affect its specialized functions",
+  "vertices": 3776,
+  "hemisphere": "Left"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Brodmannniigz_63",
+  "name": "Brodmann Area 31",
+  "ba_label": "BA31",
+  "description": "Brodmann Area 31 - Involved in self-referential thought, memory, and spatial awareness [9]. Also, signal extraction from background noise, and activated when familiar stimuli are encountered [10]. It plays a big role in",
+  "location": "Brodmann area 31, also known as dorsal posterior cingulate area 31, is a subdivision of the cytoarchitecturally defined cingulate region of the cerebral cortex. In the human, it occupies portions of the posterior cingulate gyrus and medial aspect of the parietal lobe. Approximate boundaries are the cingulate sulcus dorsally and the parieto-occipital sulcus caudally. It partially surrounds the subparietal sulcus, the ventral continuation of the cingulate sulcus in the parietal lobe. It is bounded rostrally by the ventral anterior cingulate area 24, ventrally by the ventral posterior cingulate area 23, dorsally by the gigantopyramidal area 4 and preparietal area 5 and caudally by the superior parietal area 7 (H) [3]. It is also described as the dorsal posterior cingulate cortex [4].",
+  "function": "Involved in self-referential thought, memory, and spatial awareness [9]. Also, signal extraction from background noise, and activated when familiar stimuli are encountered [10]. It plays a big role in emotion and memory, navigation, and the brain's default mode network [7].",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Significant activity in the PCC (including BA31) during eyes-closed state [1]. Deep brain activity in the PCC analyzed in this band [2]."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Significant activity in the PCC (including BA31) during eyes-closed state [1]. Deep brain activity in the PCC analyzed in this band [2]."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Significant activity in the PCC (including BA31) during eyes-closed state [1, 2]. Deep brain activity in the PCC analyzed in this band [2]."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Significant activity in the PCC (including BA31) during eyes-closed state [1]. Elevated EEG functional connectivity in the beta-3 band (25-30 Hz) between PCC and sgPFC in remitted depressed patients [5]."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Low gamma band activity in the PCC (including BA31) during eyes-closed state [1]. Stimulation of PCC impairs recall memory, with impairment predicted by stimulation-induced hippocampal gamma [8]."
+    }
+  },
+  "connections": [
+    "Anterior cingulate",
+    "Posterior cingulate",
+    "Hippocampus",
+    "Prefrontal cortex"
+  ],
+  "connectivity_pattern": "Brodmann Area 31 is part of the limbic system, playing a big role in emotion and memory. It is also part of the retrosplenial and posterior cingulate cortex, involved in memory, navigation, and the brain's default mode network [7].",
+  "clinical_significance": "Dyslexics show main activity in Brodmann's area 31 (posterior cingulate cortex), while controls exhibit main activity in retrosplenial cortex (Brodmann's area 30). This suggests a role for the posterior cingulate cortex in the pre-attentive processing operation of dyslexia beyond its traditional function in terms of spatial attention and motor intention [6].",
+  "vertices": 3401,
+  "hemisphere": "Left"
+}

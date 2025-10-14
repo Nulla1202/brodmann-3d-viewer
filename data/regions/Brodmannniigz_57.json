@@ -1,0 +1,46 @@
+{
+  "id": "Brodmannniigz_57",
+  "name": "Brodmann Area 9",
+  "ba_label": "BA9",
+  "description": "Brodmann Area 9 - BA9 is involved in a wide range of cognitive functions, including memory coding, memory recall, working memory, executive control of behavior, verbal fluency, and inferential reasoning. It also plays ",
+  "location": "Brodmann Area 9 (BA9) is a cytoarchitecturally defined portion of the frontal cortex in the brain of humans and other primates. Its cytoarchitecture is referred to as granular due to the concentration of granule cells in layer IV. It contributes to the dorsolateral and medial prefrontal cortex. Specifically, it occupies the dorsal region of the lateral prefrontal cortex and extends medially to the paracingulate gyrus in humans and the cingulate gyrus in monkeys.",
+  "function": "BA9 is involved in a wide range of cognitive functions, including memory coding, memory recall, working memory, executive control of behavior, verbal fluency, and inferential reasoning. It also plays a role in error detection, auditory verbal attention, evaluating recency, overriding automatic responses, inferring the intention of others, inferring deduction from spatial imagery, and attributing intention. In the left hemisphere, BA9 is partially responsible for working memory, empathy, idiom comprehension, and self-criticism, as well as processing pleasant and unpleasant emotional scenes and attending to negative emotions. In the right hemisphere, it is involved in the attribution of intention, theory of mind, working memory, spatial memory, recognition, recall, planning, calculation, religiosity, semantic and perceptual processing of odors, recognition of others' emotions, and attention to positive emotions.",
+  "band_pass_characteristics": {
+    "delta": {
+      "frequency_range": "0.5-4 Hz",
+      "description": "Deep sleep, unconscious states",
+      "characteristics": "Delta waves are typically associated with deep, dreamless sleep and unconscious bodily functions. In waking states, increased frontal delta power has been linked to psychological pain and certain pathological conditions. Given BA9's role in executive functions, abnormal delta activity might indicate dysfunction."
+    },
+    "theta": {
+      "frequency_range": "4-8 Hz",
+      "description": "Meditation, memory processing, light sleep",
+      "characteristics": "Theta waves are often observed during states of deep relaxation, meditation, and light sleep, as well as during memory retrieval and spatial navigation. Frontal midline theta rhythm (Fmθ) appears over medial frontal areas during cognitive tasks, suggesting a potential role in BA9-related functions like working memory and attention."
+    },
+    "alpha": {
+      "frequency_range": "8-13 Hz",
+      "description": "Relaxed wakefulness, reduced mental effort",
+      "characteristics": "Alpha waves are prominent during relaxed wakefulness, particularly with closed eyes, and are associated with a state of calm and reduced mental effort. They are also linked to inhibitory control and attention. Changes in alpha wave power, particularly in the frontal regions, can be related to behavioral inhibition and depression, which might involve BA9 given its executive functions."
+    },
+    "beta": {
+      "frequency_range": "13-30 Hz",
+      "description": "Active thinking, focus, problem-solving",
+      "characteristics": "Beta waves are characteristic of an alert, actively thinking, and focused state. They are associated with active concentration, problem-solving, and decision-making. Given BA9's involvement in executive control and planning, beta activity is expected to be significant during the execution of these functions."
+    },
+    "gamma": {
+      "frequency_range": "30-100+ Hz",
+      "description": "High-level cognition, learning, memory formation",
+      "characteristics": "Gamma waves are the fastest brainwaves and are associated with high-level cognitive processing, learning, memory formation, and conscious perception. They are indicative of intense mental activity and information processing, which aligns with BA9's complex cognitive roles such as inferential reasoning and working memory."
+    }
+  },
+  "connections": [
+    "BA8",
+    "BA9",
+    "BA46",
+    "Anterior cingulate",
+    "Basal ganglia"
+  ],
+  "connectivity_pattern": "Brodmann Area 9, as part of the prefrontal cortex, exhibits extensive connectivity with various other brain regions. It shows functional connectivity with subdivisions of Brodmann Area 8, particularly in the dorsolateral prefrontal cortex. Structural connectivity studies have also shown connections between BA9 and Broca's area, as well as other frontal areas like BA6 (supplementary motor area and pre-SMA). Alterations in cortical structural connectivity in BA9 have been linked to lesions affecting memory and spatial imagery. BA9 is also part of broader functional networks, with brain regions simultaneously activated during cognitive processes forming large-scale networks.",
+  "clinical_significance": "Damage to BA9 can result in executive dysfunction, leading to problems with affection, social judgment, executive memory, abstract thinking, and intentionality. The area displays lower levels of energy consumption in individuals suffering from bipolar disorder. Abnormalities in DNA methylation and gene expression have been observed in BA9 in clinical disorders. Alterations in cortical structural connectivity in BA9 might result in lesions that affect memory, spatial imagery, and auditory processing. BA9 is also implicated in the pathophysiology of chronic schizophrenia, with decreased reelin expression observed in the left prefrontal cortex (BA9).",
+  "vertices": 16000,
+  "hemisphere": "Left"
+}
