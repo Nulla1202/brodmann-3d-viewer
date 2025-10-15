@@ -19,3 +19,4 @@ Thumbs.db
 
 # Keep only essential files for web app
 # Include: index.html, data/, BA_v2.glb
+.claude/
