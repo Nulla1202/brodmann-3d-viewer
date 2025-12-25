@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brodmann Areas 3D Viewer</title>
     <style>
+        :root {
+            --bg-1: #f7f7ff;
+            --bg-2: #e7f3ff;
+            --panel: #ffffff;
+            --panel-strong: #f1f4ff;
+            --text: #2f3a4a;
+            --muted: #708198;
+            --accent: #7c9cf5;
+            --accent-2: #f7a9c4;
+            --border: #dfe7f5;
+            --shadow: 0 20px 60px rgba(51, 86, 145, 0.14);
+            --radius: 18px;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -12,92 +26,44 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Inter', 'Noto Sans JP', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             overflow: hidden;
-            background: #1a1a2e;
-            color: white;
+            background: radial-gradient(circle at 20% 20%, #fef6ff, var(--bg-1)), linear-gradient(160deg, var(--bg-1), var(--bg-2));
+            color: var(--text);
         }
 
         #main-container {
             display: flex;
             width: 100vw;
             height: 100vh;
+            gap: 12px;
+            padding: 16px;
         }
 
         #sidebar {
-            width: 420px;
-            background: rgba(30, 30, 50, 0.95);
-            border-right: 2px solid rgba(100, 100, 150, 0.3);
+            width: 430px;
+            min-width: 360px;
+            max-width: 480px;
+            background: rgba(255, 255, 255, 0.82);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
             overflow-y: auto;
-            padding: 20px;
+            padding: 20px 22px;
             display: flex;
             flex-direction: column;
-        }
-
-        #sidebar h1 {
-            font-size: 24px;
-            margin-bottom: 10px;
-            color: #88ccff;
-        }
-
-        #sidebar .subtitle {
-            font-size: 12px;
-            color: #aaa;
-            margin-bottom: 20px;
-        }
-
-        #region-info {
-            flex: 1;
-        }
-
-        #region-info.empty {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #666;
-            font-style: italic;
-        }
-
-        .info-section {
-            margin-bottom: 20px;
-        }
-
-        .info-section h3 {
-            font-size: 18px;
-            color: #66aaff;
-            margin-bottom: 8px;
-            border-bottom: 1px solid rgba(100, 100, 150, 0.3);
-            padding-bottom: 5px;
-        }
-
-        .info-section p, .info-section ul {
-            font-size: 14px;
-            line-height: 1.6;
-            color: #ddd;
-        }
-
-        .info-section ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .info-section li {
-            padding: 5px 0;
-            border-bottom: 1px solid rgba(100, 100, 150, 0.1);
-        }
-
-        .info-section li:last-child {
-            border-bottom: none;
-        }
-
-        .info-label {
-            color: #88ccff;
-            font-weight: bold;
+            gap: 14px;
         }
 
         #canvas-container {
             flex: 1;
             position: relative;
+            background: linear-gradient(145deg, #f5f8ff, #fdf7ff);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
         }
 
         canvas {
@@ -106,29 +72,238 @@
             height: 100%;
         }
 
+        .header {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .titles {
+            flex: 1;
+        }
+
+        .eyebrow {
+            font-size: 12px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 4px;
+        }
+
+        #title-text {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+
+        #subtitle-text {
+            font-size: 13px;
+            color: var(--muted);
+        }
+
+        .actions {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: linear-gradient(120deg, #ffe3f0, #e1e9ff);
+            color: #6c3c7a;
+            font-weight: 600;
+            font-size: 12px;
+            border: 1px solid #f3d8e8;
+            box-shadow: 0 10px 30px rgba(255, 170, 206, 0.25);
+            width: fit-content;
+        }
+
+        button {
+            cursor: pointer;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+            font-size: 13px;
+        }
+
+        button:active {
+            transform: translateY(1px);
+        }
+
+        .ghost-btn {
+            padding: 10px 12px;
+            background: #f3f6ff;
+            color: var(--text);
+            border: 1px solid var(--border);
+            box-shadow: inset 0 1px 0 #fff;
+        }
+
+        .ghost-btn:hover {
+            background: #e7edff;
+        }
+
+        .primary-btn {
+            padding: 10px 12px;
+            background: linear-gradient(135deg, var(--accent), #9fb9ff);
+            color: #fff;
+            box-shadow: 0 12px 30px rgba(124, 156, 245, 0.35);
+        }
+
+        .primary-btn:hover {
+            background: linear-gradient(135deg, #6f8ae8, #8eb0ff);
+        }
+
+        #region-info {
+            flex: 1;
+        }
+
+        #region-info.empty {
+            min-height: 240px;
+            display: grid;
+            place-items: center;
+            color: var(--muted);
+            font-style: italic;
+            border: 1px dashed var(--border);
+            border-radius: var(--radius);
+            background: #f9fbff;
+        }
+
+        .info-section {
+            margin-bottom: 18px;
+            background: #ffffff;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 14px;
+            box-shadow: 0 8px 24px rgba(60, 98, 180, 0.06);
+        }
+
+        .info-section h3 {
+            font-size: 16px;
+            color: var(--text);
+            margin-bottom: 6px;
+        }
+
+        .info-section p, .info-section ul {
+            font-size: 14px;
+            line-height: 1.7;
+            color: var(--muted);
+        }
+
+        .info-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .info-section li {
+            padding: 6px 0;
+            border-bottom: 1px solid #eef2fb;
+        }
+
+        .info-section li:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 8px;
+            margin-top: 6px;
+        }
+
+        .meta-item {
+            padding: 10px 12px;
+            border-radius: 12px;
+            background: #f6f8ff;
+            border: 1px solid var(--border);
+            color: var(--text);
+            font-weight: 600;
+            box-shadow: inset 0 1px 0 #fff;
+        }
+
+        .hint {
+            font-size: 13px;
+            color: var(--muted);
+            background: #f7f9ff;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 10px 12px;
+            box-shadow: 0 6px 16px rgba(80, 120, 200, 0.08);
+        }
+
         .loading {
-            color: #88ccff;
+            color: var(--accent);
             font-style: italic;
         }
 
         .error {
-            color: #ff6666;
-            padding: 10px;
-            background: rgba(255, 100, 100, 0.1);
-            border-radius: 5px;
+            color: #c7566d;
+            padding: 12px;
+            background: #fff1f4;
+            border: 1px solid #ffd7df;
+            border-radius: 10px;
+        }
+
+        #status-chip {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 10px 12px;
+            color: var(--text);
+            font-weight: 600;
+            box-shadow: var(--shadow);
+            z-index: 2;
+        }
+
+        @media (max-width: 1024px) {
+            #main-container {
+                flex-direction: column;
+            }
+
+            #sidebar {
+                width: 100%;
+                max-width: 100%;
+                height: 50vh;
+            }
         }
     </style>
 </head>
 <body>
     <div id="main-container">
-        <div id="sidebar">
-            <h1>Brodmann Areas</h1>
-            <div class="subtitle">Click on a brain region to view details</div>
+        <aside id="sidebar">
+            <div class="header">
+                <div class="titles">
+                    <div class="eyebrow">Neuro Atlas</div>
+                    <h1 id="title-text">Brodmann Areas</h1>
+                    <div id="subtitle-text" class="subtitle">Click on a brain region to view details</div>
+                    <div class="pill">Calm pastel UI</div>
+                </div>
+                <div class="actions">
+                    <button id="reset-view-btn" class="ghost-btn" type="button">Reset view</button>
+                    <button id="language-toggle" class="primary-btn" type="button" aria-label="Toggle language">日本語</button>
+                </div>
+            </div>
+            <div id="hint-text" class="hint">Drag to rotate • Scroll to zoom • Click to inspect</div>
             <div id="region-info" class="empty">
                 Select a region to view information
             </div>
+        </aside>
+        <div id="canvas-container">
+            <div id="status-chip">Interactive 3D · Pastel mode</div>
         </div>
-        <div id="canvas-container"></div>
     </div>
 
     <script type="importmap">
@@ -146,30 +321,89 @@
 
     const canvasContainer = document.getElementById('canvas-container');
     const regionInfoDiv = document.getElementById('region-info');
+    const languageToggle = document.getElementById('language-toggle');
+    const resetViewBtn = document.getElementById('reset-view-btn');
+    const titleTextEl = document.getElementById('title-text');
+    const subtitleTextEl = document.getElementById('subtitle-text');
+    const hintTextEl = document.getElementById('hint-text');
+    const statusChip = document.getElementById('status-chip');
 
+    const translations = {
+      en: {
+        title: 'Brodmann Areas',
+        subtitle: 'Click on a brain region to view details',
+        hint: 'Drag to rotate • Scroll to zoom • Click to inspect',
+        status: 'Interactive 3D · Pastel mode',
+        selectPrompt: 'Select a region to view information',
+        loading: 'Loading...',
+        dataUnavailable: 'Data not available',
+        region: 'Region',
+        baLabel: 'BA Label',
+        location: 'Location',
+        hemisphere: 'Hemisphere',
+        vertices: 'Vertices',
+        function: 'Function',
+        connections: 'Connections',
+        connectivity: 'Connectivity Pattern',
+        clinical: 'Clinical Significance',
+        eeg: 'EEG Band Pass Characteristics',
+        noData: 'No data available',
+        langToggle: '日本語',
+        langAria: 'Switch to Japanese',
+        reset: 'Reset view'
+      },
+      ja: {
+        title: 'ブロードマン領域',
+        subtitle: '脳の領域をクリックすると詳細が表示されます',
+        hint: 'ドラッグで回転・スクロールでズーム・クリックで詳細',
+        status: 'インタラクティブ3D · パステルモード',
+        selectPrompt: '領域を選択してください',
+        loading: '読み込み中...',
+        dataUnavailable: 'データがありません',
+        region: '領域',
+        baLabel: 'BAラベル',
+        location: '位置',
+        hemisphere: '半球',
+        vertices: '頂点数',
+        function: '機能',
+        connections: '接続',
+        connectivity: '結合パターン',
+        clinical: '臨床的意義',
+        eeg: 'EEG バンド特性',
+        noData: 'データがありません',
+        langToggle: 'English',
+        langAria: '英語に切替',
+        reset: 'ビューをリセット'
+      }
+    };
+
+    const bandLabels = {
+      delta: { en: 'Delta', ja: 'デルタ' },
+      theta: { en: 'Theta', ja: 'シータ' },
+      alpha: { en: 'Alpha', ja: 'アルファ' },
+      beta: { en: 'Beta', ja: 'ベータ' },
+      gamma: { en: 'Gamma', ja: 'ガンマ' }
+    };
+
+    let currentLang = (localStorage.getItem('lang') || (navigator.language?.startsWith('ja') ? 'ja' : 'en'));
+    let lastRegionData = null;
     const renderer = new THREE.WebGLRenderer({ antialias:true });
+    renderer.setPixelRatio(window.devicePixelRatio);
     canvasContainer.appendChild(renderer.domElement);
     renderer.setSize(canvasContainer.clientWidth, canvasContainer.clientHeight);
 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x1a1a2e);
+    scene.background = new THREE.Color(0xf5f7fb);
 
-    // Add multiple lights to ensure visibility
-    scene.add(new THREE.AmbientLight(0xffffff, 0.8));
-    const dirLight = new THREE.DirectionalLight(0xffffff, 1.0);
-    dirLight.position.set(50, 50, 50);
+    // Softer lights for pastel tone
+    scene.add(new THREE.AmbientLight(0xffffff, 0.9));
+    const dirLight = new THREE.DirectionalLight(0xffffff, 0.65);
+    dirLight.position.set(60, 80, 70);
     scene.add(dirLight);
+
     const camera = new THREE.PerspectiveCamera(60, canvasContainer.clientWidth/canvasContainer.clientHeight, 0.1, 1000);
     camera.position.set(0, 0, 150);
     const controls = new OrbitControls(camera, renderer.domElement);
-
-    // Test cube to verify renderer is working
-    const testCube = new THREE.Mesh(
-      new THREE.BoxGeometry(20, 20, 20),
-      new THREE.MeshBasicMaterial({ color: 0xff0000, wireframe: true })
-    );
-    testCube.position.set(0, 0, 0);
-    scene.add(testCube);
 
     // Axes helper in top-right corner
     const axesScene = new THREE.Scene();
@@ -178,10 +412,48 @@
     const axesHelper = new THREE.AxesHelper(1);
     axesScene.add(axesHelper);
 
+    function t(key) {
+      return translations[currentLang]?.[key] || translations.en[key] || key;
+    }
+
+    function pickLocalized(data, field) {
+      const localized = data.translations?.[currentLang]?.[field];
+      if (localized && typeof localized === 'string' && localized.trim().length) return localized;
+      return data[field];
+    }
+
+    function renderEmptyState() {
+      regionInfoDiv.className = 'empty';
+      regionInfoDiv.innerHTML = t('selectPrompt');
+    }
+
+    function applyLanguage() {
+      document.documentElement.lang = currentLang;
+      titleTextEl.textContent = t('title');
+      subtitleTextEl.textContent = t('subtitle');
+      hintTextEl.textContent = t('hint');
+      statusChip.textContent = t('status');
+      languageToggle.textContent = t('langToggle');
+      languageToggle.setAttribute('aria-label', t('langAria'));
+      resetViewBtn.textContent = t('reset');
+      if (lastRegionData) {
+        displayRegionInfo(lastRegionData);
+      } else {
+        renderEmptyState();
+      }
+    }
+
+    languageToggle.addEventListener('click', () => {
+      currentLang = currentLang === 'en' ? 'ja' : 'en';
+      localStorage.setItem('lang', currentLang);
+      applyLanguage();
+    });
+
     // Load region data from JSON file
     async function loadRegionData(regionName) {
       try {
-        regionInfoDiv.innerHTML = '<div class="loading">Loading...</div>';
+        regionInfoDiv.className = '';
+        regionInfoDiv.innerHTML = `<div class="loading">${t('loading')}</div>`;
         const response = await fetch(`./data/regions/${regionName}.json`);
 
         if (!response.ok) {
@@ -189,12 +461,13 @@
         }
 
         const data = await response.json();
+        lastRegionData = data;
         displayRegionInfo(data);
       } catch (error) {
         console.error('Error loading region data:', error);
         regionInfoDiv.innerHTML = `
           <div class="error">
-            <strong>Data not available</strong><br>
+            <strong>${t('dataUnavailable')}</strong><br>
             Region: ${regionName}<br>
             <small>${error.message}</small>
           </div>
@@ -206,20 +479,20 @@
     function displayRegionInfo(data) {
       regionInfoDiv.className = '';
 
-      // Generate Band Pass section HTML if available
       let bandPassHTML = '';
       if (data.band_pass_characteristics) {
         const bands = data.band_pass_characteristics;
         bandPassHTML = `
           <div class="info-section">
-            <h3>EEG Band Pass Characteristics</h3>
+            <h3>${t('eeg')}</h3>
             ${Object.keys(bands).map(bandName => {
               const band = bands[bandName];
-              const bandLabel = bandName.charAt(0).toUpperCase() + bandName.slice(1);
+              const labelSet = bandLabels[bandName.toLowerCase()] || { en: bandName, ja: bandName };
+              const bandLabel = labelSet[currentLang] || labelSet.en || bandName;
               return `
                 <div style="margin-bottom: 12px;">
-                  <strong style="color: #88ccff;">${bandLabel} (${band.frequency_range})</strong>
-                  <p style="font-size: 12px; color: #999; margin: 2px 0;">${band.description}</p>
+                  <strong style="color: var(--accent);">${bandLabel} (${band.frequency_range})</strong>
+                  <p style="font-size: 12px; color: var(--muted); margin: 2px 0;">${band.description}</p>
                   <p style="font-size: 13px; margin: 4px 0;">${band.characteristics}</p>
                 </div>
               `;
@@ -228,43 +501,51 @@
         `;
       }
 
+      const connectionsHTML = data.connections && data.connections.length
+        ? data.connections.map(conn => `<li>→ ${conn}</li>`).join('')
+        : `<li>${t('noData')}</li>`;
+
+      const connectivityHTML = data.connectivity_pattern ? `
+        <div class="info-section">
+          <h3>${t('connectivity')}</h3>
+          <p>${pickLocalized(data, 'connectivity_pattern')}</p>
+        </div>
+      ` : '';
+
       regionInfoDiv.innerHTML = `
         <div class="info-section">
-          <h3>${data.name}</h3>
-          <p>${data.description}</p>
+          <h3>${pickLocalized(data, 'name')}</h3>
+          <p>${pickLocalized(data, 'description')}</p>
         </div>
 
         <div class="info-section">
-          <p><span class="info-label">BA Label:</span> ${data.ba_label || 'N/A'}</p>
-          <p><span class="info-label">Location:</span> ${data.location}</p>
-          <p><span class="info-label">Hemisphere:</span> ${data.hemisphere || 'N/A'}</p>
-          <p><span class="info-label">Vertices:</span> ${data.vertices}</p>
+          <div class="meta-grid">
+            <div class="meta-item">${t('baLabel')}: ${data.ba_label || 'N/A'}</div>
+            <div class="meta-item">${t('location')}: ${pickLocalized(data, 'location')}</div>
+            <div class="meta-item">${t('hemisphere')}: ${data.hemisphere || 'N/A'}</div>
+            <div class="meta-item">${t('vertices')}: ${data.vertices}</div>
+          </div>
         </div>
 
         <div class="info-section">
-          <h3>Function</h3>
-          <p>${data.function}</p>
+          <h3>${t('function')}</h3>
+          <p>${pickLocalized(data, 'function')}</p>
         </div>
 
         ${bandPassHTML}
 
         <div class="info-section">
-          <h3>Connections</h3>
+          <h3>${t('connections')}</h3>
           <ul>
-            ${data.connections ? data.connections.map(conn => `<li>→ ${conn}</li>`).join('') : '<li>No data available</li>'}
+            ${connectionsHTML}
           </ul>
         </div>
 
-        ${data.connectivity_pattern ? `
-        <div class="info-section">
-          <h3>Connectivity Pattern</h3>
-          <p>${data.connectivity_pattern}</p>
-        </div>
-        ` : ''}
+        ${connectivityHTML}
 
         <div class="info-section">
-          <h3>Clinical Significance</h3>
-          <p>${data.clinical_significance}</p>
+          <h3>${t('clinical')}</h3>
+          <p>${pickLocalized(data, 'clinical_significance')}</p>
         </div>
       `;
     }
@@ -272,15 +553,14 @@
     // Load GLB model
     const loader = new GLTFLoader();
     const parts = [];
+    let resetViewState = null;
     loader.load('./BA_v2.glb', (gltf)=>{
       scene.add(gltf.scene);
-      console.log('=== GLB Structure ===');
 
       // Compute bounding box for auto-fitting camera
       const box = new THREE.Box3().setFromObject(gltf.scene);
       const center = box.getCenter(new THREE.Vector3());
       const size = box.getSize(new THREE.Vector3());
-      console.log(`Bounding box - Center: (${center.x.toFixed(2)}, ${center.y.toFixed(2)}, ${center.z.toFixed(2)}), Size: (${size.x.toFixed(2)}, ${size.y.toFixed(2)}, ${size.z.toFixed(2)})`);
 
       // Position camera to fit the model
       const maxDim = Math.max(size.x, size.y, size.z);
@@ -291,36 +571,32 @@
       camera.lookAt(center);
       controls.target.copy(center);
       controls.update();
+      resetViewState = {
+        position: camera.position.clone(),
+        target: controls.target.clone()
+      };
 
       gltf.scene.traverse(o=>{
         if (o.isMesh) {
-          console.log(`Type: ${o.type}, Name: "${o.name}", Vertices: ${o.geometry?.attributes?.position?.count}, Color: ${o.material?.color?.getHexString()}`);
-
           // Make material double-sided and ensure it's visible
           if (o.material) {
             o.material.side = THREE.DoubleSide;
             o.material.needsUpdate = true;
           }
 
-          // All meshes are clickable targets
           o.userData.basePos = o.position.clone();
           o.userData.lift = 0; o.userData.liftTarget = 0; o.userData.locked = false;
-          // Store original color for brightening effect
           if (o.material && o.material.color) {
             o.userData.baseColor = o.material.color.clone();
           }
           parts.push(o);
         }
       });
-      console.log(`Total: ${parts.length} mesh objects found`);
-      console.log(`Camera position: (${camera.position.x.toFixed(2)}, ${camera.position.y.toFixed(2)}, ${camera.position.z.toFixed(2)})`);
-      console.log(`Camera looking at: (${controls.target.x.toFixed(2)}, ${controls.target.y.toFixed(2)}, ${controls.target.z.toFixed(2)})`);
     });
 
     const ray = new THREE.Raycaster(), mouse = new THREE.Vector2();
     let hover = null;
     let selectedRegion = null; // Currently selected region (exclusive selection)
-    // TODO: For future multi-selection mode, change this to: let selectedRegions = new Set();
 
     addEventListener('pointermove', (e)=>{
       const rect = canvasContainer.getBoundingClientRect();
@@ -337,7 +613,6 @@
     });
 
     addEventListener('click', (e)=>{
-      // Check if click is on canvas
       const rect = canvasContainer.getBoundingClientRect();
       if (e.clientX < rect.left || e.clientX > rect.right ||
           e.clientY < rect.top || e.clientY > rect.bottom) {
@@ -346,69 +621,55 @@
 
       if (!hover) return;
 
-      // EXCLUSIVE SELECTION MODE: Only one region can be selected at a time
-      // Deselect previously selected region
       if (selectedRegion && selectedRegion !== hover) {
         selectedRegion.userData.locked = false;
         selectedRegion.userData.liftTarget = 0;
-
-        // Restore original color of previously selected region
         if (selectedRegion.material && selectedRegion.material.color && selectedRegion.userData.baseColor) {
           selectedRegion.material.color.copy(selectedRegion.userData.baseColor);
         }
       }
 
-      // Toggle selection of current region
       const wasLocked = hover.userData.locked;
       hover.userData.locked = !wasLocked;
       hover.userData.liftTarget = hover.userData.locked ? 1 : 0;
-
-      // Update selectedRegion
       selectedRegion = hover.userData.locked ? hover : null;
 
-      // Click: brighten/restore color
       if (hover.material && hover.material.color && hover.userData.baseColor) {
         if (hover.userData.locked) {
-          // Brighten by converting to HSL and increasing lightness
           const hsl = {};
           hover.userData.baseColor.getHSL(hsl);
-          hover.material.color.setHSL(hsl.h, hsl.s, Math.min(hsl.l + 0.3, 1.0));
-
-          // Load region data
+          hover.material.color.setHSL(hsl.h, hsl.s * 0.85, Math.min(hsl.l + 0.25, 1.0));
           loadRegionData(hover.name);
         } else {
-          // Restore original color
           hover.material.color.copy(hover.userData.baseColor);
         }
       }
+    });
 
-      // TODO: For future multi-selection mode with relationship analysis:
-      // 1. Change to: selectedRegions.add(hover) or selectedRegions.delete(hover)
-      // 2. When selectedRegions.size > 1, call analyzeRelationships(selectedRegions)
-      // 3. Display relationship analysis in sidebar (shared functions, connectivity patterns, etc.)
+    resetViewBtn.addEventListener('click', ()=>{
+      if (!resetViewState) return;
+      camera.position.copy(resetViewState.position);
+      controls.target.copy(resetViewState.target);
+      controls.update();
     });
 
     function animate(){
       requestAnimationFrame(animate);
-      // hover/locked: lift upward (Y-axis) and scale slightly
       for (const m of parts) {
         m.userData.lift += (m.userData.liftTarget - m.userData.lift)*0.15;
-        // Move upward (Y-axis) when lifted
         const offset = new THREE.Vector3(0, 15 * m.userData.lift, 0);
         m.position.copy(m.userData.basePos).add(offset);
-        const s = 1 + 0.1*m.userData.lift;
+        const s = 1 + 0.08*m.userData.lift;
         m.scale.setScalar(s);
       }
 
       const width = canvasContainer.clientWidth;
       const height = canvasContainer.clientHeight;
 
-      // Render main scene
       renderer.setScissorTest(false);
       renderer.setViewport(0, 0, width, height);
       renderer.render(scene, camera);
 
-      // Render axes in top-right corner
       axesCamera.quaternion.copy(camera.quaternion);
       const axesSize = 100;
       renderer.clearDepth();
@@ -417,13 +678,11 @@
       renderer.setViewport(width - axesSize - 10, height - axesSize - 10, axesSize, axesSize);
       renderer.render(axesScene, axesCamera);
 
-      // Reset viewport
       renderer.setScissorTest(false);
       renderer.setViewport(0, 0, width, height);
     }
     animate();
 
-    // Window resize handling
     addEventListener('resize', ()=>{
       const width = canvasContainer.clientWidth;
       const height = canvasContainer.clientHeight;
@@ -431,6 +690,8 @@
       camera.updateProjectionMatrix();
       renderer.setSize(width, height);
     });
+
+    applyLanguage();
     </script>
 </body>
 </html>
