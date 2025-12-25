@@ -586,7 +586,7 @@
             o.material.needsUpdate = true;
             // Lift brightness slightly to counter a dark source model
             if (o.material.color) {
-              o.material.color.multiplyScalar(1.25).clampScalar(0, 1);
+              o.material.color.multiplyScalar(1.25).clamp();
             }
           }
 
