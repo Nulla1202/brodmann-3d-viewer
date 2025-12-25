@@ -388,8 +388,14 @@
     let lastRegionData = null;
     const renderer = new THREE.WebGLRenderer({ antialias:true });
     renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.domElement.style.width = '100%';
+    renderer.domElement.style.height = '100%';
+    renderer.domElement.style.display = 'block';
+    renderer.domElement.style.position = 'absolute';
+    renderer.domElement.style.inset = '0';
+    renderer.domElement.style.pointerEvents = 'auto';
     canvasContainer.appendChild(renderer.domElement);
-    renderer.setSize(canvasContainer.clientWidth, canvasContainer.clientHeight);
+    renderer.setSize(canvasContainer.clientWidth, canvasContainer.clientHeight, false);
 
     const scene = new THREE.Scene();
     scene.background = new THREE.Color(0xf5f7fb);
@@ -604,8 +610,8 @@
     let hover = null;
     let selectedRegion = null; // Currently selected region (exclusive selection)
 
-    addEventListener('pointermove', (e)=>{
-      const rect = canvasContainer.getBoundingClientRect();
+    renderer.domElement.addEventListener('pointermove', (e)=>{
+      const rect = renderer.domElement.getBoundingClientRect();
       mouse.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
       mouse.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
       ray.setFromCamera(mouse, camera);
@@ -618,8 +624,8 @@
       }
     });
 
-    addEventListener('click', (e)=>{
-      const rect = canvasContainer.getBoundingClientRect();
+    renderer.domElement.addEventListener('click', (e)=>{
+      const rect = renderer.domElement.getBoundingClientRect();
       if (e.clientX < rect.left || e.clientX > rect.right ||
           e.clientY < rect.top || e.clientY > rect.bottom) {
         return;
