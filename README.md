@@ -16,7 +16,7 @@ Interactive 3D visualization of Brodmann brain areas with detailed information a
 
 ### Online Version
 
-Visit: [Your deployed URL here]
+Visit: [https://nulla1202.github.io/brodmann-3d-viewer/]
 
 ### Local Development
 
